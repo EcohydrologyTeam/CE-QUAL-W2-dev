@@ -1,0 +1,10 @@
+"Name","Parameter","Constituent_Name","Units","Data_Column","Filename","Output_Timestep"
+"tin_br1","temperature","Celsius","1/1","two_101_JDA.opt",    0.041668
+"tdt_br1","temperature","Celsius","1/1","two_101_JDA.opt",    0.041668
+"ttr_1_seg21","temperature","Celsius","1/1","JHAW_temp_2011_2015.csv",    0.042048
+"cin_br1","N2","g/m^3","1/2","cwo_101_JDA.opt",    0.041668
+"cin_br1","DO","g/m^3","2/2","cwo_101_JDA.opt",    0.041668
+"cdt_br1","N2","g/m^3","1/2","cwo_101_JDA.opt",    0.041668
+"cdt_br1","DO","g/m^3","2/2","cwo_101_JDA.opt",    0.041668
+"ctr_1_seg21","N2","g/m^3","1/2","cwo_101_JDA.opt",    0.041668
+"ctr_1_seg21","DO","g/m^3","2/2","cwo_101_JDA.opt",    0.041668

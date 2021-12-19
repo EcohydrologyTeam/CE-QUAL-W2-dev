@@ -1,0 +1,2012 @@
+                              Spokane River Model Version 3.6
+
+TITLE C ................................TITLE..................................
+        Version 3.6 Spokane R. Model
+        WB 1 : Sloping branches between State line and Upriver Pool 
+        WB 2 : Pool of Upriver DAm
+        Wb 3 : Pool of Upper Falls Dam
+        WB 4 : 2 sloping branches above 9-mile dam pool           
+        WB 5 : Nine Mile dam pool            
+        WB 6 : Long Lake
+        Tom Cole, WES; Scott Wells, PSU; Rob Annear, PSU; Chris Berger, PSU
+         
+         
+          
+GRID         NWB     NBR     IMX     KMX
+               6      12     189      47
+
+IN/OUTFLOW   NTR     NST     NIW     NWD     NGT     NSP     NPI     NPU
+               7       8       0       0       0       6       0       0
+
+CONSTITUENTS NGC     NSS     NAL     NEP    NBOD     NMC     NZP
+               5       1       3       1      10       0       1
+
+MISCELL     NDAY
+             100
+
+TIME CON  TMSTRT   TMEND    YEAR
+           74.00  304.00    2001
+
+DLT CON     NDLT  DLTMIN
+               8     0.1
+
+DLT DATE    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD    DLTD
+            1.00    74.0   115.2   140.0   226.0   232.0   234.0   254.0   
+
+DLT MAX   DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX  DLTMAX
+             5.0     8.0     8.0     8.0     5.0     5.0     5.0     8.0 
+
+DLT FRN     DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF    DLTF
+            0.90    0.60    0.60    0.60    0.60    0.60    0.60     0.6
+
+DLT LIMIT   VISC    CELC
+Wb 1          ON      ON
+Wb 2          ON      ON
+Wb 3          ON      ON
+Wb 4          ON      ON
+Wb 5          ON      ON
+Wb 6          ON      ON
+
+BRANCH G      US      DS     UHS     DHS     UQB     DQB   NLMIN   SLOPE
+Br     1       2      10       0      13       0       0       1 0.00181
+Br     2      13      24      10      27       0       0       1 0.00152
+Br     3      27      36      24      39       0       0       1 0.00328
+Br     4      39      48      36       0       0       0       1 0.00142
+Br     5      51      64       0       0       0       0       1 0.00000
+Br     6      67      73     -64      76       0       0       1 0.00000
+Br     7      76      86      73       0       0       0       1 0.00000
+Br     8      89      94     -86      97       0       0       1 0.00256
+Br     9      97     128      94       0       0       0       1 0.00208
+Br    10     131     135       0     138       0       0       1 0.00000
+Br    11     138     151     135       0       0       0       1 0.00000
+Br    12     154     188    -151       0       0       0       1 0.00000 
+
+LOCATION     LAT    LONG    EBOT      BS      BE    JBDN
+Jr  1       47.8   117.8  578.72       1       4       4
+Jr  2       47.8   117.8  571.00       5       5       5
+Jr  3       47.8   117.8  560.00       6       7       7
+Jr  4       47.8   117.8  485.51       8       9       9
+Jr  5       47.8   117.8  481.00      10      11      11
+Jr  6       47.8   117.8  422.10      12      12      12 
+
+INIT CND     T2I    ICEI  WTYPEC 
+wb 1         8.0     0.0   FRESH
+wb 2         8.0     0.0   FRESH
+wb 3         8.0     0.0   FRESH
+wb 4         8.0     0.0   FRESH
+wb 5         8.0     0.0   FRESH
+wb 6         8.0     0.0   FRESH
+
+CALCULAT     VBC     EBC     MBC     PQC     EVC     PRC
+Wb 1          ON      ON      ON     OFF      ON     OFF
+Wb 2          ON      ON      ON     OFF      ON     OFF
+Wb 3          ON      ON      ON     OFF      ON     OFF
+Wb 4          ON      ON      ON     OFF      ON     OFF
+Wb 5          ON      ON      ON     OFF      ON     OFF
+Wb 6          ON      ON      ON     OFF      ON     OFF
+
+DEAD SEA   WINDC    QINC   QOUTC   HEATC
+Wb 1          ON      ON      ON      ON
+Wb 2          ON      ON      ON      ON
+Wb 3          ON      ON      ON      ON
+Wb 4          ON      ON      ON      ON
+Wb 5          ON      ON      ON      ON
+Wb 6          ON      ON      ON      ON
+
+INTERPOL   QINIC   DTRIC    HDIC
+Br 1          ON     OFF      ON
+Br 2          ON     OFF      ON
+Br 3          ON     OFF      ON
+Br 4          ON     OFF      ON
+Br 5          ON     OFF      ON
+Br 6          ON     OFF      ON
+Br 7          ON     OFF      ON
+Br 8          ON     OFF      ON
+Br 9          ON     OFF      ON
+Br 10         ON     OFF      ON
+Br 11         ON     OFF      ON
+Br 12         ON     OFF      ON
+
+HEAT EXCH  SLHTC    SROC  RHEVAP   METIC  FETCHC     AFW     BFW     CFW   WINDH
+Wb 1        TERM      ON     OFF      ON     OFF     9.2    0.46     2.0     2.0
+Wb 2        TERM      ON     OFF      ON     OFF     9.2    0.46     2.0     2.0
+Wb 3        TERM      ON     OFF      ON     OFF     9.2    0.46     2.0     2.0
+Wb 4        TERM      ON     OFF      ON     OFF     9.2    0.46     2.0     2.0
+Wb 5        TERM      ON     OFF      ON     OFF     9.2    0.46     2.0     2.0
+Wb 6        TERM      ON     OFF      ON     OFF     9.2    0.46     2.0     2.0
+
+ICE COVER   ICEC  SLICEC  ALBEDO   HWICE    BICE    GICE  ICEMIN   ICET2
+Wb 1         OFF  DETAIL    0.25    10.0     0.6    0.07    0.05     3.0
+Wb 2         OFF  DETAIL    0.25    10.0     0.6    0.07    0.05     3.0
+Wb 3         OFF  DETAIL    0.25    10.0     0.6    0.07    0.05     3.0
+Wb 4         OFF  DETAIL    0.25    10.0     0.6    0.07    0.05     3.0
+Wb 5         OFF  DETAIL    0.25    10.0     0.6    0.07    0.05     3.0
+Wb 6         OFF  DETAIL    0.25    10.0     0.6    0.07    0.05     3.0
+
+TRANSPORT  SLTRC   THETA  
+Wb 1    ULTIMATE    0.55  
+Wb 2    ULTIMATE    0.55 
+Wb 3    ULTIMATE    0.55  
+Wb 4    ULTIMATE    0.55
+Wb 5    ULTIMATE    0.55
+Wb 6    ULTIMATE    0.55
+ 
+HYD COEF      AX      DX    CBHE    TSED      FI   TSEDF   FRICC      Z0
+Wb 1         1.0     1.0     0.3    11.5    0.01    1.00    MANN   0.001
+Wb 2         1.0     1.0     0.3    11.5    0.01    1.00    MANN   0.001
+Wb 3         1.0     1.0     0.3    11.5    0.01    1.00    MANN   0.001
+Wb 4         1.0     1.0     0.3    11.5    0.01    1.00    MANN   0.001
+Wb 5         1.0     1.0     0.3    11.5    0.01    1.00    MANN   0.001
+Wb 6         1.0     1.0     0.3    11.5    0.01    1.00    MANN   0.001
+
+EDDY VISC    AZC   AZSLC   AZMAX     FBC       E   ARODI STRCKLR BOUNDFR  TKECAL
+jr1          W2N     IMP     1.0       3   9.535   0.430    24.0    10.0     IMP
+jr2           W2     IMP     1.0       3   9.535   0.430    24.0    10.0     IMP
+jr3           W2     IMP     1.0       3   9.535   0.430    24.0    10.0     IMP
+jr4          W2N     IMP     1.0       3   9.535   0.430    24.0    10.0     IMP
+jr5           W2     IMP     1.0       3   9.535   0.430    24.0    10.0     IMP
+jr6           W2     IMP     1.0       3   9.535   0.430    24.0    10.0     IMP
+                                                                         
+N STRUC     NSTR
+BR1            0
+BR2            0
+BR3            0
+BR4            0
+BR5            2
+BR6            0
+BR7            2
+BR8            0
+BR9            0
+BR10           0
+BR11           2
+BR12           2 
+
+STR INT    STRIC   STRIC   STRIC   STRIC   STRIC   STRIC   STRIC   STRIC   STRIC
+Br 1                 
+Br 2
+Br 3           
+Br 4
+Br 5         OFF     OFF
+Br 6
+Br 7         OFF     OFF
+Br 8
+Br 9                 
+Br 10        
+Br 11        OFF     OFF    
+Br 12        OFF     OFF
+
+STR TOP    KTSTR   KTSTR   KTSTR   KTSTR   KTSTR   KTSTR   KTSTR   KTSTR   KTSTR
+Br 1                 
+Br 2
+Br 3           
+Br 4
+Br 5           2       2
+Br 6
+Br 7           2       2
+Br 8
+Br 9                 
+Br 10        
+Br 11          2       2 
+Br 12          2       2
+
+STR BOT    KBSTR   KBSTR   KBSTR   KBSTR   KBSTR   KBSTR   KBSTR   KBSTR   KBSTR
+Br 1                 
+Br 2
+Br 3           
+Br 4
+Br 5          41      41
+Br 6
+Br 7          38      38
+Br 8
+Br 9                 
+Br 10        
+Br 11         39      39 
+Br 12         46      46
+
+STR SINK   SINKC   SINKC   SINKC   SINKC   SINKC   SINKC   SINKC   SINKC   SINKC
+Br 1                 
+Br 2
+Br 3           
+Br 4
+Br 5       POINT    LINE
+Br 6
+Br 7       POINT   POINT
+Br 8
+Br 9                 
+Br 10        
+Br 11      POINT   POINT
+Br 12      POINT    LINE
+
+STR ELEV    ESTR    ESTR    ESTR    ESTR    ESTR    ESTR    ESTR    ESTR    ESTR
+Br 1                 
+Br 2
+Br 3           
+Br 4
+Br 5      579.50   577.1
+Br 6
+Br 7      565.15  567.25
+Br 8
+Br 9                 
+Br 10        
+Br 11     485.00   489.0    
+Br 12      456.9  459.64
+
+STR WIDTH   WSTR    WSTR    WSTR    WSTR    WSTR    WSTR    WSTR    WSTR    WSTR
+Br 1                 
+Br 2
+Br 3           
+Br 4
+Br 5                70.0   
+Br 6
+Br 7                50.0         
+Br 8
+Br 9                 
+Br 10        
+Br 11          
+Br 12              60.99
+
+PIPES       IUPI    IDPI    EUPI    EDPI     WPI   DLXPI     FPI  FMINPI   WTHLC     
+Pi 1          24      28    28.0    27.0     0.5   230.0   0.065     0.1    DOWN
+
+PIPE UP    PUPIC   ETUPI   EBUPI   KTUPI   KBUPI             
+Pi 1       DISTR                       2      23
+
+PIPE DOWN  PDPIC   ETDPI   EBDPI   KTDPI   KBDPI             
+Pi 1       DISTR                       2      23
+
+SPILLWAY    IUSP    IDSP     ESP    A1SP    B1SP    A2SP    B2SP   WTHLC       
+upriver       64      67  582.30    10.0     1.5   20.00     1.5    DOWN
+upperfal      86      89  570.25    10.0     1.5   20.00     1.5    DOWN
+9mile        151     154  497.00 10000.0     1.5   20.00     1.5    DOWN
+longlake     188       0  469.00 20000.0     1.5   20.00     1.5    DOWN
+48_51         48      51  579.80   80.00     1.5   30.00     1.5    DOWN 
+128_131      128     131  486.50   60.00     1.5   30.00     1.5    DOWN
+
+SPILL UP   PUSPC   ETUSP   EBUSP   KTUSP   KBUSP
+spill1     DISTR                       2      41
+spill2     DISTR                       2      38
+spill3     DISTR                       2      39
+spill4     DISTR                       2      46
+spill5     DISTR                       2      45
+spill6     DISTR                       2      46
+
+SPILL DOWN PDSPC   ETUSP   EBUSP   KTDSP   KBDSP
+spill1     DISTR                       2      36
+spill2     DISTR                       2      45
+spill3     DISTR                       2       6
+spill4     DISTR                       2      46
+spill5     DISTR                       2      43
+spill6     DISTR                       2      39
+
+SPILL  GAS GASSPC    EQSP  AGASSP  BGASSP  CGASSP
+spill1       OFF
+spill2       OFF
+spill3       OFF
+spill4       OFF  
+spill5       OFF
+spill6       OFF  
+
+GATES       IUGT    IDGT     EGT    A1GT    B1GT    G1GT    A2GT    B2GT    G2GT   WTHLC
+Gt 1          27      33    44.0   10.00     1.0     1.0    10.0     2.5     0.0    DOWN
+
+GATE WEIR   GTA1    GTB1    GTA2    GTB2  DYNVAR
+Gt 1        10.0     1.5    10.0     1.5       B
+
+GATE UP    PUGTC   ETUGT   EBUGT   KTUGT   KBUGT
+Gt 1       DISTR                       3      23 
+
+GATE DOWN  PDGTC   ETDGT   EBDGT   KTDGT   KBDGT             
+Gt 1       DISTR                       3      23 
+
+GATE GAS  GASGTC    EQGT  AGASGT  BGASGT  CGASGT
+Gt 1          ON       1    10.0   120.00     1.0
+
+PUMPS 1     IUPU    IDPU     EPU  STRTPU   ENDPU   EONPU  EOFFPU     QPU   WTHLC
+Wl 1          30      33     2.4     1.0   900.0     3.0     2.4     3.0    DOWN
+
+PUMPS 2     PPUC    ETPU    EBPU    KTPU    KBPU             
+Wl 1       DISTR                       4      23
+
+WEIR SEG     IWR     IWR     IWR     IWR     IWR     IWR     IWR     IWR     IWR
+Wr 1          27
+
+WEIR TOP    KTWR    KTWR    KTWR    KTWR    KTWR    KTWR    KTWR    KTWR    KTWR
+Wr 1           9
+
+WEIR BOT    KBWR    KBWR    KBWR    KBWR    KBWR    KBWR    KBWR    KBWR    KBWR
+Wr 1          23
+
+WD INT      WDIC    WDIC    WDIC    WDIC    WDIC    WDIC    WDIC    WDIC    WDIC
+Wd 1
+
+WD SEG       IWD     IWD     IWD     IWD     IWD     IWD     IWD     IWD     IWD
+Wd 1                                                 
+
+WD ELEV      EWD     EWD     EWD     EWD     EWD     EWD     EWD     EWD     EWD
+Wd 1                                                   
+
+WD TOP      KTWD    KTWD    KTWD    KTWD    KTWD    KTWD    KTWD    KTWD    KTWD
+Wd 1                                                 
+
+WD BOT      KBWD    KBWD    KBWD    KBWD    KBWD    KBWD    KBWD    KBWD    KBWD
+Wd 1                                                
+
+TRIB PLACE  PTRC    PTRC    PTRC    PTRC    PTRC    PTRC    PTRC    PTRC    PTRC
+           DISTR   DISTR   DISTR   DISTR   DISTR   DISTR   DISTR
+
+TRIB INT    TRIC    TRIC    TRIC    TRIC    TRIC    TRIC    TRIC    TRIC    TRIC
+Tr 1         OFF     OFF     OFF     OFF     OFF     OFF     OFF
+
+TRIB SEG     ITR     ITR     ITR     ITR     ITR     ITR     ITR     ITR     ITR
+              15      43      56      98     114     147     155
+
+TRIB TOP   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT   ELTRT
+
+
+TRIB BOT   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB   ELTRB
+
+
+DST TRIB    DTRC
+Br 1          ON
+Br 2          ON
+Br 3          ON
+Br 4          ON
+Br 5          ON
+Br 6          ON
+Br 7          ON
+Br 8          ON
+Br 9          ON
+Br10          ON
+Br11          ON
+Br12          ON
+
+HYD PRINT HPRWBC  HPRWBC  HPRWBC  HPRWBC  HPRWBC  HPRWBC  HPRWBC  HPRWBC  HPRWBC
+NVIOL         ON      ON      ON      ON      ON      ON
+U             ON      ON      ON      ON      ON      ON
+W             ON      ON      ON      ON      ON      ON
+T             ON      ON      ON      ON      ON      ON
+RHO          OFF     OFF     OFF     OFF     OFF     OFF
+AZ           OFF     OFF     OFF     OFF     OFF     OFF
+SHEAR        OFF     OFF     OFF     OFF     OFF     OFF
+ST           OFF     OFF     OFF     OFF     OFF     OFF
+SB           OFF     OFF     OFF     OFF     OFF     OFF
+ADMX         OFF     OFF     OFF     OFF     OFF     OFF
+DM           OFF     OFF     OFF     OFF     OFF     OFF
+HDG          OFF     OFF     OFF     OFF     OFF     OFF
+ADMZ         OFF     OFF     OFF     OFF     OFF     OFF
+HPG          OFF     OFF     OFF     OFF     OFF     OFF
+GRAV         OFF     OFF     OFF     OFF     OFF     OFF
+
+SNP PRINT   SNPC    NSNP   NISNP
+WB 1          ON       2      16
+WB 2          ON       2       8
+WB 3          ON       2       3
+WB 4          ON       2       6
+WB 5          ON       2       5
+WB 6          ON       2      14
+
+SNP DATE    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD    SNPD
+jr 1        74.0    74.6
+jr 2        74.0    74.6
+jr 3        74.0    74.6
+jr 4        74.0    74.6  
+jr 5        74.0    74.6
+jr 6        74.0    74.6
+
+SNP FREQ    SNPF    SNPF    SNPF    SNPF    SNPF    SNPF    SNPF    SNPF    SNPF
+WB 1      0.2000     3.0
+WB 2      0.2000     3.0
+WB 3      0.2000     3.0
+WB 4      0.2000     3.0
+WB 5      0.2000     3.0
+WB 6      0.2000     3.0
+
+SNP SEG     ISNP    ISNP    ISNP    ISNP    ISNP    ISNP    ISNP    ISNP    ISNP
+WB 1           2      10      13      24      27      36      39      40      41
+              42      43      44      45      46      47      48
+WB 2          51      53      55      57      59      61      63      64
+WB 3          84      85      86      
+WB 4          89      90      92     122     123     124
+WB 5         131     138     139     148     151
+WB 6         154     155     156     158     161     162     163     164     165
+             168     175     181     187     188             
+
+SCR PRINT   SCRC    NSCR
+WB 1         OFF       1
+WB 2         OFF       1
+WB 3         OFF       1
+WB 4         OFF       1
+WB 5         OFF       1
+WB 6          ON       1
+
+SCR DATE    SCRD    SCRD    SCRD    SCRD    SCRD    SCRD    SCRD    SCRD    SCRD
+WB 1         1.0
+WB 2         1.0
+WB 3         1.0
+WB 4         1.0
+WB 5         1.0
+WB 6         1.0
+
+SCR FREQ    SCRF    SCRF    SCRF    SCRF    SCRF    SCRF    SCRF    SCRF    SCRF
+WB 1      0.0500
+WB 2      0.1000
+WB 3      0.1000
+WB 4      0.1000
+WB 5      0.1000
+WB 6      0.1000
+
+PRF PLOT    PRFC    NPRF   NIPRF
+jr 1         OFF       0       0
+jr 2         OFF       0       0
+jr 3         OFF       0       0
+jr 4         OFF       0       0
+jr 5         OFF       0       0
+jr 6          ON      14       8
+
+PRF DATE    PRFD    PRFD    PRFD    PRFD    PRFD    PRFD    PRFD    PRFD    PRFD
+jr 1   
+jr 2       
+jr 3   
+jr 4          
+jr 5
+jr 6     220.373 220.413 220.450 220.497 220.528 220.600 221.500 241.378 241.403 
+         241.438 241.503 241.549 241.615 242.600
+
+PRF FREQ    PRFF    PRFF    PRFF    PRFF    PRFF    PRFF    PRFF    PRFF    PRFF
+jr 1
+jr 2
+jr 3  
+jr 4          
+jr 5
+jr 6       500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0
+           500.0   500.0   500.0   500.0   500.0
+
+PRF SEG     IPRF    IPRF    IPRF    IPRF    IPRF    IPRF    IPRF    IPRF    IPRF
+jr 1
+jr 2
+jr 3  
+jr 4          
+jr 5
+jr 6         157     161     168     174     180     183     187     188
+
+SPR PLOT    SPRC    NSPR   NISPR
+WB 1         OFF       9       7
+WB 2         OFF       9       5
+WB 3         OFF       9       7
+WB 4         OFF       9       0
+WB 5         OFF       9       7
+WB 6          ON       4       9
+
+SPR DATE    SPRD    SPRD    SPRD    SPRD    SPRD    SPRD    SPRD    SPRD    SPRD
+WB 1      181.25  197.25  212.25  227.25  243.25  252.25  258.25  273.25  283.25
+WB 2      181.30  197.30  212.30  227.30  243.30  252.30  258.30  273.30  283.30
+WB 3      181.25  197.25  212.25  227.25  243.25  252.25  258.25  273.25  283.25
+WB 4      181.25  197.25  212.25  227.25  243.25  252.25  258.25  273.25  283.25
+WB 5      181.25  197.25  212.25  227.25  243.25  252.25  258.25  273.25  283.25
+WB 6      181.25  243.25  258.25  273.25
+
+SPR FREQ    SPRF    SPRF    SPRF    SPRF    SPRF    SPRF    SPRF    SPRF    SPRF
+WB 1       500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0
+WB 2       500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0
+WB 3       500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0
+WB 4       500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0
+WB 5       500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0   500.0
+WB 6       500.0   500.0   500.0   500.0
+
+SPR SEG     ISPR    ISPR    ISPR    ISPR    ISPR    ISPR    ISPR    ISPR    ISPR
+WB 1          10      20      23      34      44      46      48
+WB 2          52      54      57      61      62
+WB 3          68      72      77      82      83      84      85
+WB 4
+WB 5         133     135     139     142     145     148     150
+WB 6         157     161     168     174     180     181     183     187     188
+
+VPL PLOT    VPLC    NVPL
+WB 1         OFF       1
+WB 2         OFF       1
+WB 3         OFF       1
+WB 4         OFF       1
+WB 5         OFF       1
+WB 6         OFF       1
+
+VPL DATE    VPLD    VPLD    VPLD    VPLD    VPLD    VPLD    VPLD    VPLD    VPLD
+WB 1        63.5
+WB 2        63.5
+WB 3        63.5
+WB 4        63.5
+WB 5        63.5
+WB 6        63.5
+
+VPL FREQ    VPLF    VPLF    VPLF    VPLF    VPLF    VPLF    VPLF    VPLF    VPLF
+WB 1         1.0
+WB 2         1.0
+WB 3         1.0
+WB 4         1.0
+WB 5         1.0
+WB 6         1.0
+
+CPL PLOT    CPLC    NCPL TECPLOT
+WB 1         OFF       0     OFF
+WB 2         OFF       0     OFF
+WB 3         OFF       0     OFF
+WB 4         OFF       0     OFF
+WB 5         OFF       0     OFF
+WB 6         OFF       1     OFF
+
+CPL DATE    CPLD    CPLD    CPLD    CPLD    CPLD    CPLD    CPLD    CPLD    CPLD
+jr 1
+jr 2
+jr 3
+jr 4
+jr 5
+jr 6       120.6
+
+CPL FREQ    CPLF    CPLF    CPLF    CPLF    CPLF    CPLF    CPLF    CPLF    CPLF
+jr 1
+jr 2
+jr 3
+jr 4
+jr 5
+jr 6         1.0
+
+FLUXES      FLXC    NFLX
+WB 1         OFF       0
+WB 2         OFF       0
+WB 3         OFF       0
+WB 4         OFF       0
+WB 5         OFF       0
+WB 6         OFF       0
+
+FLX DATE    FLXD    FLXD    FLXD    FLXD    FLXD    FLXD    FLXD    FLXD    FLXD
+WB 1
+WB 2
+WB 3
+WB 4
+WB 5
+WB 6
+
+FLX FREQ    FLXF    FLXF    FLXF    FLXF    FLXF    FLXF    FLXF    FLXF    FLXF
+WB 1
+WB 2
+WB 3
+WB 4
+WB 5
+WB 6
+
+TSR PLOT    TSRC    NTSR   NITSR
+              ON       1      38
+
+TSR DATE    TSRD    TSRD    TSRD    TSRD    TSRD    TSRD    TSRD    TSRD    TSRD
+             1.0
+
+TSR FREQ    TSRF    TSRF    TSRF    TSRF    TSRF    TSRF    TSRF    TSRF    TSRF
+            0.02
+
+TSR SEG     ITSR    ITSR    ITSR    ITSR    ITSR    ITSR    ITSR    ITSR    ITSR
+               2      10      20      24      36      48      64      67      73
+              86      89      94      97     106     114     119     135     141
+             150     151     154     155     161     168     174     180     181
+             188     128     131     157      81      68     146      14      42
+              55     113
+
+TSR LAYER   ETSR    ETSR    ETSR    ETSR    ETSR    ETSR    ETSR    ETSR    ETSR
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             1.5     0.1     0.1     0.1     0.1     0.1     0.1     0.1     1.5
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1
+
+WITH OUT    WDOC    NWDO   NIWDO
+              ON       1       7
+
+WITH DATE   WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD    WDOD
+           74.00
+
+WITH FREQ   WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF    WDOF
+           0.050
+
+WITH SEG    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO    IWDO
+              64      86     151     188      13      24      97
+
+RESTART     RSOC    NRSO    RSIC
+             OFF       0     OFF
+
+RSO DATE    RSOD    RSOD    RSOD    RSOD    RSOD    RSOD    RSOD    RSOD    RSOD
+                
+
+RSO FREQ    RSOF    RSOF    RSOF    RSOF    RSOF    RSOF    RSOF    RSOF    RSOF
+                
+
+CST COMP     CCC    LIMC     CUF
+              ON      ON      10
+
+CST ACTIVE   CAC
+TDS           ON
+AGE          OFF
+TRACER       OFF
+COLIFORM     OFF
+Conduct       ON
+Chlorine     OFF
+ISS1          ON
+PO4           ON
+NH4           ON
+NOx           ON
+DSi          OFF
+PSi          OFF 
+TFe          OFF
+LDOM          ON
+RDOM          ON
+LPOM          ON
+RPOM          ON
+1CBOD         ON
+2CBOD         ON
+3CBOD         ON
+4CBOD         ON
+5CBOD         ON
+6CBOD         ON
+7CBOD         ON
+8CBOD         ON
+9CBOD         ON
+10CBOD        ON
+1CBODP        ON
+2CBODP        ON
+3CBODP        ON
+4CBODP        ON
+5CBODP        ON
+6CBODP        ON
+7CBODP        ON
+8CBODP        ON
+9CBODP        ON
+10CBODP       ON
+1CBODN        ON
+2CBODN        ON
+3CBODN        ON
+4CBODN        ON
+5CBODN        ON
+6CBODN        ON
+7CBODN        ON
+8CBODN        ON
+9CBODN        ON
+10CBODN       ON
+ALG1          ON
+ALG2          ON
+ALG3          ON
+DO            ON
+TIC           ON
+ALK           ON
+ZOO1         OFF
+LDOM_P        ON
+RDOM_P        ON
+LPOM_P        ON
+RPOM_P        ON
+LDOM_N        ON
+RDOM_N        ON
+LPOM_N        ON
+RPOM_N        ON
+
+CST DERI   CDWBC   CDWBC   CDWBC   CDWBC   CDWBC   CDWBC   CDWBC   CDWBC   CDWBC
+DOC           ON      ON      ON      ON      ON      ON
+POC          OFF     OFF     OFF     OFF     OFF     OFF
+TOC           ON      ON      ON      ON      ON      ON
+DON          OFF     OFF     OFF     OFF     OFF     OFF
+PON          OFF     OFF     OFF     OFF     OFF     OFF
+TON           ON      ON      ON      ON      ON      ON
+TKN           ON      ON      ON      ON      ON      ON
+TN            ON      ON      ON      ON      ON      ON
+DOP          OFF     OFF     OFF     OFF     OFF     OFF
+POP          OFF     OFF     OFF     OFF     OFF     OFF
+TOP           ON      ON      ON      ON      ON      ON
+TP            ON      ON      ON      ON      ON      ON
+APR          OFF     OFF     OFF     OFF     OFF     OFF
+CHLA          ON      ON      ON      ON      ON      ON
+ATOT         OFF     OFF     OFF     OFF     OFF     OFF
+%DO          OFF     OFF     OFF     OFF     OFF     OFF
+TSS           ON      ON      ON      ON      ON      ON
+TISS         OFF     OFF     OFF     OFF     OFF     OFF
+CBODU         ON      ON      ON      ON      ON      ON
+pH            ON      ON      ON      ON      ON      ON
+CO2          OFF     OFF     OFF     OFF     OFF     OFF
+HCO3         OFF     OFF     OFF     OFF     OFF     OFF
+CO3          OFF     OFF     OFF     OFF     OFF     OFF
+
+CST FLUX   CFWBC   CFWBC   CFWBC   CFWBC   CFWBC   CFWBC   CFWBC   CFWBC   CFWBC
+TISSIN       OFF     OFF     OFF     OFF     OFF     OFF
+TISSOUT      OFF     OFF     OFF     OFF     OFF     OFF
+PO4AR        OFF     OFF     OFF     OFF     OFF     OFF
+PO4AG        OFF     OFF     OFF     OFF     OFF     OFF
+PO4AP        OFF     OFF     OFF     OFF     OFF     OFF
+PO4ER        OFF     OFF     OFF     OFF     OFF     OFF
+PO4EG        OFF     OFF     OFF     OFF     OFF     OFF
+PO4EP        OFF     OFF     OFF     OFF     OFF     OFF
+PO4POM       OFF     OFF     OFF     OFF     OFF     OFF
+PO4DOM       OFF     OFF     OFF     OFF     OFF     OFF
+PO4OM        OFF     OFF     OFF     OFF     OFF     OFF
+PO4SED       OFF     OFF     OFF     OFF     OFF     OFF
+PO4SOD       OFF     OFF     OFF     OFF     OFF     OFF
+PO4SET       OFF     OFF     OFF     OFF     OFF     OFF
+NH4NITR      OFF     OFF     OFF     OFF     OFF     OFF
+NH4AR        OFF     OFF     OFF     OFF     OFF     OFF
+NH4AG        OFF     OFF     OFF     OFF     OFF     OFF
+NH4AP        OFF     OFF     OFF     OFF     OFF     OFF
+NH4ER        OFF     OFF     OFF     OFF     OFF     OFF
+NH4EG        OFF     OFF     OFF     OFF     OFF     OFF
+NH4EP        OFF     OFF     OFF     OFF     OFF     OFF
+NH4POM       OFF     OFF     OFF     OFF     OFF     OFF
+NH4DOM       OFF     OFF     OFF     OFF     OFF     OFF
+NH4OM        OFF     OFF     OFF     OFF     OFF     OFF
+NH4SED       OFF     OFF     OFF     OFF     OFF     OFF
+NH4SOD       OFF     OFF     OFF     OFF     OFF     OFF
+NO3DEN       OFF     OFF     OFF     OFF     OFF     OFF
+NO3AG        OFF     OFF     OFF     OFF     OFF     OFF
+NO3EG        OFF     OFF     OFF     OFF     OFF     OFF
+NO3SED       OFF     OFF     OFF     OFF     OFF     OFF
+DSIAG        OFF     OFF     OFF     OFF     OFF     OFF
+DSIEG        OFF     OFF     OFF     OFF     OFF     OFF
+DSIPIS       OFF     OFF     OFF     OFF     OFF     OFF
+DSISED       OFF     OFF     OFF     OFF     OFF     OFF
+DSISOD       OFF     OFF     OFF     OFF     OFF     OFF
+DSISET       OFF     OFF     OFF     OFF     OFF     OFF
+PSIAM        OFF     OFF     OFF     OFF     OFF     OFF
+PSINET       OFF     OFF     OFF     OFF     OFF     OFF
+PSIDK        OFF     OFF     OFF     OFF     OFF     OFF
+FESET        OFF     OFF     OFF     OFF     OFF     OFF
+FESED        OFF     OFF     OFF     OFF     OFF     OFF
+LDOMDK       OFF     OFF     OFF     OFF     OFF     OFF
+LRDOM        OFF     OFF     OFF     OFF     OFF     OFF
+RDOMDK       OFF     OFF     OFF     OFF     OFF     OFF
+LDOMAP       OFF     OFF     OFF     OFF     OFF     OFF
+LDOMEP       OFF     OFF     OFF     OFF     OFF     OFF
+LPOMDK       OFF     OFF     OFF     OFF     OFF     OFF
+LRPOM        OFF     OFF     OFF     OFF     OFF     OFF
+RPOMDK       OFF     OFF     OFF     OFF     OFF     OFF
+LPOMAP       OFF     OFF     OFF     OFF     OFF     OFF
+LPOMEP       OFF     OFF     OFF     OFF     OFF     OFF
+LPOMSET      OFF     OFF     OFF     OFF     OFF     OFF
+RPOMSET      OFF     OFF     OFF     OFF     OFF     OFF
+CBODDK       OFF     OFF     OFF     OFF     OFF     OFF
+DOAP         OFF     OFF     OFF     OFF     OFF     OFF
+DOAR         OFF     OFF     OFF     OFF     OFF     OFF
+DOEP         OFF     OFF     OFF     OFF     OFF     OFF
+DOER         OFF     OFF     OFF     OFF     OFF     OFF
+DOPOM        OFF     OFF     OFF     OFF     OFF     OFF
+DODOM        OFF     OFF     OFF     OFF     OFF     OFF
+DOOM         OFF     OFF     OFF     OFF     OFF     OFF
+DONITR       OFF     OFF     OFF     OFF     OFF     OFF
+DOCBOD       OFF     OFF     OFF     OFF     OFF     OFF
+DOREAR       OFF     OFF     OFF     OFF     OFF     OFF
+DOSED        OFF     OFF     OFF     OFF     OFF     OFF
+DOSOD        OFF     OFF     OFF     OFF     OFF     OFF
+TICAG        OFF     OFF     OFF     OFF     OFF     OFF
+TICEG        OFF     OFF     OFF     OFF     OFF     OFF
+SEDDK        OFF     OFF     OFF     OFF     OFF     OFF
+SEDAS        OFF     OFF     OFF     OFF     OFF     OFF
+SEDLPOM      OFF     OFF     OFF     OFF     OFF     OFF
+SEDSET       OFF     OFF     OFF     OFF     OFF     OFF
+SODDK        OFF     OFF     OFF     OFF     OFF     OFF
+                                               
+CST ICON   C2IWB   C2IWB   C2IWB   C2IWB   C2IWB   C2IWB   C2IWB   C2IWB   C2IWB
+TDS          0.0     0.0     0.0     0.0     0.0     0.0
+AGE          0.0     0.0     0.0     0.0     0.0     0.0
+TRACER       0.0     0.0     0.0     0.0     0.0     0.0
+COL1         0.0     0.0     0.0     0.0     0.0     0.0
+Conduct      0.0     0.0     0.0     0.0     0.0     0.0
+Chlorine     0.0     0.0     0.0     0.0     0.0     0.0
+ISS1         0.0     0.0     0.0     0.0     0.0     0.0
+PO4         0.03    0.03    0.03    0.03    0.03    0.03
+NH4         0.01    0.01    0.01    0.01    0.01    0.01
+NOx          0.3     0.3     0.3     0.3     0.3     0.3
+DSi          0.0     0.0     0.0     0.0     0.0     0.0
+PSi          0.0     0.0     0.0     0.0     0.0     0.0 
+TFe          0.0     0.0     0.0     0.0     0.0     0.0
+LDOM         0.1     0.1     0.1     0.1     0.1     0.1
+RDOM         0.1     0.1     0.1     0.1     0.1     1.0
+LPOM         0.1     0.1     0.1     0.1     0.1     0.1
+RPOM         0.1     0.1     0.1     0.1     0.1     1.0
+1CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+2CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+3CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+4CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+5CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+6CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+7CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+8CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+9CBOD        0.0     0.0     0.0     0.0     0.0     0.0
+10CBOD       0.0     0.0     0.0     0.0     0.0     0.0
+1CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+2CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+3CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+4CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+5CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+6CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+7CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+8CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+9CBODP       0.0     0.0     0.0     0.0     0.0     0.0
+10CBODP      0.0     0.0     0.0     0.0     0.0     0.0
+1CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+2CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+3CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+4CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+5CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+6CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+7CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+8CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+9CBODN       0.0     0.0     0.0     0.0     0.0     0.0
+10CBODN      0.0     0.0     0.0     0.0     0.0     0.0
+ALG1         0.1     0.1     0.1     0.1     0.1     0.1
+ALG2         0.1     0.1     0.1     0.1     0.1     0.1
+ALG3         0.1     0.1     0.1     0.1     0.1     0.1
+DO          12.0    12.0    12.0    12.0    12.0    12.0
+TIC          5.0     5.0     5.0     5.0     5.0     5.0
+ALK         19.8    19.8    19.8    19.8    19.8    19.8
+ZOO1         0.0     0.0     0.0     0.0     0.0     0.0
+LDOM_P    0.0005  0.0005  0.0005  0.0005  0.0005  0.0005
+RDOM_P    0.0005  0.0005  0.0005  0.0005  0.0005   0.005
+LPOM_P    0.0005  0.0005  0.0005  0.0005  0.0005  0.0005
+RPOM_P    0.0005  0.0005  0.0005  0.0005  0.0005   0.005
+LDOM_N    0.0080  0.0080  0.0080  0.0080  0.0080  0.0080
+RDOM_N    0.0080  0.0080  0.0080  0.0080  0.0080   0.080
+LPOM_N    0.0080  0.0080  0.0080  0.0080  0.0080  0.0080
+RPOM_N    0.0080  0.0080  0.0080  0.0080  0.0080   0.080
+
+CST PRIN  CPRWBC  CPRWBC  CPRWBC  CPRWBC  CPRWBC  CPRWBC  CPRWBC  CPRWBC  CPRWBC
+TDS           ON      ON      ON      ON      ON      ON
+AGE           ON      ON      ON      ON      ON      ON
+TRACER        ON      ON      ON      ON      ON      ON
+COL1          ON      ON      ON      ON      ON      ON
+Conduct       ON      ON      ON      ON      ON      ON
+Chlorine      ON      ON      ON      ON      ON      ON
+ISS1          ON      ON      ON      ON      ON      ON
+PO4           ON      ON      ON      ON      ON      ON
+NH4           ON      ON      ON      ON      ON      ON
+NOx           ON      ON      ON      ON      ON      ON
+DSi          OFF     OFF     OFF     OFF     OFF     OFF
+PSi          OFF     OFF     OFF     OFF     OFF     OFF 
+TFe          OFF     OFF     OFF     OFF     OFF     OFF
+LDOM          ON      ON      ON      ON      ON      ON
+RDOM          ON      ON      ON      ON      ON      ON
+LPOM          ON      ON      ON      ON      ON      ON
+RPOM          ON      ON      ON      ON      ON      ON
+1CBOD         ON      ON      ON      ON      ON      ON
+2CBOD         ON      ON      ON      ON      ON      ON
+3CBOD         ON      ON      ON      ON      ON      ON
+4CBOD         ON      ON      ON      ON      ON      ON
+5CBOD         ON      ON      ON      ON      ON      ON
+6CBOD         ON      ON      ON      ON      ON      ON
+7CBOD         ON      ON      ON      ON      ON      ON
+8CBOD         ON      ON      ON      ON      ON      ON
+9CBOD         ON      ON      ON      ON      ON      ON
+10CBOD        ON      ON      ON      ON      ON      ON
+1CBODP        ON      ON      ON      ON      ON      ON
+2CBODP        ON      ON      ON      ON      ON      ON
+3CBODP        ON      ON      ON      ON      ON      ON
+4CBODP        ON      ON      ON      ON      ON      ON
+5CBODP        ON      ON      ON      ON      ON      ON
+6CBODP        ON      ON      ON      ON      ON      ON
+7CBODP        ON      ON      ON      ON      ON      ON
+8CBODP        ON      ON      ON      ON      ON      ON
+9CBODP        ON      ON      ON      ON      ON      ON
+10CBODP       ON      ON      ON      ON      ON      ON
+1CBODN        ON      ON      ON      ON      ON      ON
+2CBODN        ON      ON      ON      ON      ON      ON
+3CBODN        ON      ON      ON      ON      ON      ON
+4CBODN        ON      ON      ON      ON      ON      ON
+5CBODN        ON      ON      ON      ON      ON      ON
+6CBODN        ON      ON      ON      ON      ON      ON
+7CBODN        ON      ON      ON      ON      ON      ON
+8CBODN        ON      ON      ON      ON      ON      ON
+9CBODN        ON      ON      ON      ON      ON      ON
+10CBODN       ON      ON      ON      ON      ON      ON
+ALG1          ON      ON      ON      ON      ON      ON
+ALG2          ON      ON      ON      ON      ON      ON
+ALG3          ON      ON      ON      ON      ON      ON
+DO            ON      ON      ON      ON      ON      ON
+TIC           ON      ON      ON      ON      ON      ON
+ALK           ON      ON      ON      ON      ON      ON
+ZOO1         OFF     OFF     OFF     OFF     OFF     OFF
+LDOM_P        ON      ON      ON      ON      ON      ON
+RDOM_P        ON      ON      ON      ON      ON      ON
+LPOM_P        ON      ON      ON      ON      ON      ON
+RPOM_P        ON      ON      ON      ON      ON      ON
+LDOM_N        ON      ON      ON      ON      ON      ON
+RDOM_N        ON      ON      ON      ON      ON      ON
+LPOM_N        ON      ON      ON      ON      ON      ON
+RPOM_N        ON      ON      ON      ON      ON      ON
+
+CIN CON   CINBRC  CINBRC  CINBRC  CINBRC  CINBRC  CINBRC  CINBRC  CINBRC  CINBRC
+TDS           ON      ON      ON      ON      ON      ON      ON      ON      ON
+TDS           ON      ON      ON
+AGE          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+AGE          OFF     OFF     OFF
+TRACER        ON      ON      ON      ON      ON      ON      ON      ON      ON
+TRACER        ON      ON      ON
+COL1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+COL1          ON      ON      ON
+Conduct       ON      ON      ON      ON      ON      ON      ON      ON      ON
+Conduct       ON      ON      ON
+Chlorine      ON      ON      ON      ON      ON      ON      ON      ON      ON
+Chlorine      ON      ON      ON
+ISS1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ISS1          ON      ON      ON
+PO4           ON      ON      ON      ON      ON      ON      ON      ON      ON
+PO4           ON      ON      ON
+NH4           ON      ON      ON      ON      ON      ON      ON      ON      ON
+NH4           ON      ON      ON
+NOx           ON      ON      ON      ON      ON      ON      ON      ON      ON
+NOx           ON      ON      ON
+DSi          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+DSi          OFF     OFF     OFF
+PSi          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF 
+PSi          OFF     OFF     OFF
+TFe          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+TFe          OFF     OFF     OFF
+LDOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM          ON      ON      ON
+RDOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM          ON      ON      ON
+LPOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM          ON      ON      ON
+RPOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM          ON      ON      ON
+1CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBOD         ON      ON      ON
+2CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBOD         ON      ON      ON
+3CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBOD         ON      ON      ON
+4CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBOD         ON      ON      ON
+5CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBOD         ON      ON      ON
+6CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBOD         ON      ON      ON
+7CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBOD         ON      ON      ON
+8CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBOD         ON      ON      ON
+9CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBOD         ON      ON      ON
+10CBOD        ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBOD        ON      ON      ON
+1CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBODP        ON      ON      ON
+2CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBODP        ON      ON      ON
+3CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBODP        ON      ON      ON
+4CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBODP        ON      ON      ON
+5CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBODP        ON      ON      ON
+6CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBODP        ON      ON      ON
+7CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBODP        ON      ON      ON
+8CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBODP        ON      ON      ON
+9CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBODP        ON      ON      ON
+10CBODP       ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBODP       ON      ON      ON
+1CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBODN        ON      ON      ON
+2CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBODN        ON      ON      ON
+3CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBODN        ON      ON      ON
+4CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBODN        ON      ON      ON
+5CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBODN        ON      ON      ON
+6CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBODN        ON      ON      ON
+7CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBODN        ON      ON      ON
+8CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBODN        ON      ON      ON
+9CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBODN        ON      ON      ON
+10CBODN       ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBODN       ON      ON      ON
+ALG1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG1          ON      ON      ON
+ALG2          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG2          ON      ON      ON
+ALG3          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG3          ON      ON      ON
+DO            ON      ON      ON      ON      ON      ON      ON      ON      ON
+DO            ON      ON      ON
+TIC           ON      ON      ON      ON      ON      ON      ON      ON      ON
+TIC           ON      ON      ON
+ALK           ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALK           ON      ON      ON
+ZOO1         OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+ZOO1         OFF     OFF     OFF
+LDOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM_P        ON      ON      ON
+RDOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM_P        ON      ON      ON
+LPOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM_P        ON      ON      ON
+RPOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM_P        ON      ON      ON
+LDOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM_N        ON      ON      ON
+RDOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM_N        ON      ON      ON
+LPOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM_N        ON      ON      ON
+RPOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM_N        ON      ON      ON
+
+CTR CON   CTRTRC  CTRTRC  CTRTRC  CTRTRC  CTRTRC  CTRTRC  CTRTRC  CTRTRC  CTRTRC
+TDS           ON      ON      ON      ON      ON      ON      ON
+AGE          OFF     OFF     OFF     OFF     OFF     OFF     OFF
+TRACER        ON      ON      ON      ON      ON      ON      ON
+COL1          ON      ON      ON      ON      ON      ON      ON
+Conduct       ON      ON      ON      ON      ON      ON      ON
+Chlorine      ON      ON      ON      ON      ON      ON      ON
+ISS1          ON      ON      ON      ON      ON      ON      ON
+PO4           ON      ON      ON      ON      ON      ON      ON
+NH4           ON      ON      ON      ON      ON      ON      ON
+NOx           ON      ON      ON      ON      ON      ON      ON
+DSi          OFF     OFF     OFF     OFF     OFF     OFF     OFF
+PSi          OFF     OFF     OFF     OFF     OFF     OFF     OFF 
+TFe          OFF     OFF     OFF     OFF     OFF     OFF     OFF
+LDOM          ON      ON      ON      ON      ON      ON      ON
+RDOM          ON      ON      ON      ON      ON      ON      ON
+LPOM          ON      ON      ON      ON      ON      ON      ON
+RPOM          ON      ON      ON      ON      ON      ON      ON
+1CBOD         ON      ON      ON      ON      ON      ON      ON
+2CBOD         ON      ON      ON      ON      ON      ON      ON
+3CBOD         ON      ON      ON      ON      ON      ON      ON
+4CBOD         ON      ON      ON      ON      ON      ON      ON
+5CBOD         ON      ON      ON      ON      ON      ON      ON
+6CBOD         ON      ON      ON      ON      ON      ON      ON
+7CBOD         ON      ON      ON      ON      ON      ON      ON
+8CBOD         ON      ON      ON      ON      ON      ON      ON
+9CBOD         ON      ON      ON      ON      ON      ON      ON
+10CBOD        ON      ON      ON      ON      ON      ON      ON
+1CBODP        ON      ON      ON      ON      ON      ON      ON
+2CBODP        ON      ON      ON      ON      ON      ON      ON
+3CBODP        ON      ON      ON      ON      ON      ON      ON
+4CBODP        ON      ON      ON      ON      ON      ON      ON
+5CBODP        ON      ON      ON      ON      ON      ON      ON
+6CBODP        ON      ON      ON      ON      ON      ON      ON
+7CBODP        ON      ON      ON      ON      ON      ON      ON
+8CBODP        ON      ON      ON      ON      ON      ON      ON
+9CBODP        ON      ON      ON      ON      ON      ON      ON
+10CBODP       ON      ON      ON      ON      ON      ON      ON
+1CBODN        ON      ON      ON      ON      ON      ON      ON
+2CBODN        ON      ON      ON      ON      ON      ON      ON
+3CBODN        ON      ON      ON      ON      ON      ON      ON
+4CBODN        ON      ON      ON      ON      ON      ON      ON
+5CBODN        ON      ON      ON      ON      ON      ON      ON
+6CBODN        ON      ON      ON      ON      ON      ON      ON
+7CBODN        ON      ON      ON      ON      ON      ON      ON
+8CBODN        ON      ON      ON      ON      ON      ON      ON
+9CBODN        ON      ON      ON      ON      ON      ON      ON
+10CBODN       ON      ON      ON      ON      ON      ON      ON
+ALG1          ON      ON      ON      ON      ON      ON      ON
+ALG2          ON      ON      ON      ON      ON      ON      ON
+ALG3          ON      ON      ON      ON      ON      ON      ON
+DO            ON      ON      ON      ON      ON      ON      ON
+TIC           ON      ON      ON      ON      ON      ON      ON
+ALK           ON      ON      ON      ON      ON      ON      ON
+ZOO1         OFF     OFF     OFF     OFF     OFF     OFF     OFF
+LDOM_P        ON      ON      ON      ON      ON      ON      ON
+RDOM_P        ON      ON      ON      ON      ON      ON      ON
+LPOM_P        ON      ON      ON      ON      ON      ON      ON
+RPOM_P        ON      ON      ON      ON      ON      ON      ON
+LDOM_N        ON      ON      ON      ON      ON      ON      ON
+RDOM_N        ON      ON      ON      ON      ON      ON      ON
+LPOM_N        ON      ON      ON      ON      ON      ON      ON
+RPOM_N        ON      ON      ON      ON      ON      ON      ON
+
+CDT CON   CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC  CDTBRC
+TDS           ON      ON      ON      ON      ON      ON      ON      ON      ON
+TDS           ON      ON      ON
+AGE          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+AGE          OFF     OFF     OFF
+TRACER        ON      ON      ON      ON      ON      ON      ON      ON      ON
+TRACER        ON      ON      ON
+COL1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+COL1          ON      ON      ON
+Conduct       ON      ON      ON      ON      ON      ON      ON      ON      ON
+Conduct       ON      ON      ON
+Chlorine      ON      ON      ON      ON      ON      ON      ON      ON      ON
+Chlorine      ON      ON      ON
+ISS1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ISS1          ON      ON      ON
+PO4           ON      ON      ON      ON      ON      ON      ON      ON      ON
+PO4           ON      ON      ON
+NH4           ON      ON      ON      ON      ON      ON      ON      ON      ON
+NH4           ON      ON      ON
+NOx           ON      ON      ON      ON      ON      ON      ON      ON      ON
+NOx           ON      ON      ON
+DSi          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+DSi          OFF     OFF     OFF
+PSi          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF 
+PSi          OFF     OFF     OFF
+TFe          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+TFe          OFF     OFF     OFF
+LDOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM          ON      ON      ON
+RDOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM          ON      ON      ON
+LPOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM          ON      ON      ON
+RPOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM          ON      ON      ON
+1CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBOD         ON      ON      ON
+2CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBOD         ON      ON      ON
+3CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBOD         ON      ON      ON
+4CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBOD         ON      ON      ON
+5CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBOD         ON      ON      ON
+6CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBOD         ON      ON      ON
+7CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBOD         ON      ON      ON
+8CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBOD         ON      ON      ON
+9CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBOD         ON      ON      ON
+10CBOD        ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBOD        ON      ON      ON
+1CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBODP        ON      ON      ON
+2CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBODP        ON      ON      ON
+3CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBODP        ON      ON      ON
+4CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBODP        ON      ON      ON
+5CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBODP        ON      ON      ON
+6CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBODP        ON      ON      ON
+7CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBODP        ON      ON      ON
+8CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBODP        ON      ON      ON
+9CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBODP        ON      ON      ON
+10CBODP       ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBODP       ON      ON      ON
+1CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBODN        ON      ON      ON
+2CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBODN        ON      ON      ON
+3CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBODN        ON      ON      ON
+4CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBODN        ON      ON      ON
+5CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBODN        ON      ON      ON
+6CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBODN        ON      ON      ON
+7CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBODN        ON      ON      ON
+8CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBODN        ON      ON      ON
+9CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBODN        ON      ON      ON
+10CBODN       ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBODN       ON      ON      ON
+ALG1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG1          ON      ON      ON
+ALG2          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG2          ON      ON      ON
+ALG3          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG3          ON      ON      ON
+DO            ON      ON      ON      ON      ON      ON      ON      ON      ON
+DO            ON      ON      ON
+TIC           ON      ON      ON      ON      ON      ON      ON      ON      ON
+TIC           ON      ON      ON
+ALK           ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALK           ON      ON      ON
+ZOO1         OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+ZOO1         OFF     OFF     OFF
+LDOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM_P        ON      ON      ON
+RDOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM_P        ON      ON      ON
+LPOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM_P        ON      ON      ON
+RPOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM_P        ON      ON      ON
+LDOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM_N        ON      ON      ON
+RDOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM_N        ON      ON      ON
+LPOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM_N        ON      ON      ON
+RPOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM_N        ON      ON      ON
+
+CPR CON   CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC  CPRBRC
+TDS           ON      ON      ON      ON      ON      ON      ON      ON      ON
+TDS           ON      ON      ON
+AGE          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+AGE          OFF     OFF     OFF
+TRACER        ON      ON      ON      ON      ON      ON      ON      ON      ON
+TRACER        ON      ON      ON
+COL1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+COL1          ON      ON      ON
+Conduct       ON      ON      ON      ON      ON      ON      ON      ON      ON
+Conduct       ON      ON      ON
+Chlorine      ON      ON      ON      ON      ON      ON      ON      ON      ON
+Chlorine      ON      ON      ON
+ISS1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ISS1          ON      ON      ON
+PO4           ON      ON      ON      ON      ON      ON      ON      ON      ON
+PO4           ON      ON      ON
+NH4           ON      ON      ON      ON      ON      ON      ON      ON      ON
+NH4           ON      ON      ON
+NOx           ON      ON      ON      ON      ON      ON      ON      ON      ON
+NOx           ON      ON      ON
+DSi          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+DSi          OFF     OFF     OFF
+PSi          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF 
+PSi          OFF     OFF     OFF
+TFe          OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+TFe          OFF     OFF     OFF
+LDOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM          ON      ON      ON
+RDOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM          ON      ON      ON
+LPOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM          ON      ON      ON
+RPOM          ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM          ON      ON      ON
+1CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBOD         ON      ON      ON
+2CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBOD         ON      ON      ON
+3CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBOD         ON      ON      ON
+4CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBOD         ON      ON      ON
+5CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBOD         ON      ON      ON
+6CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBOD         ON      ON      ON
+7CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBOD         ON      ON      ON
+8CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBOD         ON      ON      ON
+9CBOD         ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBOD         ON      ON      ON
+10CBOD        ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBOD        ON      ON      ON
+1CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBODP        ON      ON      ON
+2CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBODP        ON      ON      ON
+3CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBODP        ON      ON      ON
+4CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBODP        ON      ON      ON
+5CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBODP        ON      ON      ON
+6CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBODP        ON      ON      ON
+7CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBODP        ON      ON      ON
+8CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBODP        ON      ON      ON
+9CBODP        ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBODP        ON      ON      ON
+10CBODP       ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBODP       ON      ON      ON
+1CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+1CBODN        ON      ON      ON
+2CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+2CBODN        ON      ON      ON
+3CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+3CBODN        ON      ON      ON
+4CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+4CBODN        ON      ON      ON
+5CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+5CBODN        ON      ON      ON
+6CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+6CBODN        ON      ON      ON
+7CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+7CBODN        ON      ON      ON
+8CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+8CBODN        ON      ON      ON
+9CBODN        ON      ON      ON      ON      ON      ON      ON      ON      ON
+9CBODN        ON      ON      ON
+10CBODN       ON      ON      ON      ON      ON      ON      ON      ON      ON
+10CBODN       ON      ON      ON
+ALG1          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG1          ON      ON      ON
+ALG2          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG2          ON      ON      ON
+ALG3          ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALG3          ON      ON      ON
+DO            ON      ON      ON      ON      ON      ON      ON      ON      ON
+DO            ON      ON      ON
+TIC           ON      ON      ON      ON      ON      ON      ON      ON      ON
+TIC           ON      ON      ON
+ALK           ON      ON      ON      ON      ON      ON      ON      ON      ON
+ALK           ON      ON      ON
+ZOO1         OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF     OFF
+ZOO1         OFF     OFF     OFF
+LDOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM_P        ON      ON      ON
+RDOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM_P        ON      ON      ON
+LPOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM_P        ON      ON      ON
+RPOM_P        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM_P        ON      ON      ON
+LDOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LDOM_N        ON      ON      ON
+RDOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RDOM_N        ON      ON      ON
+LPOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+LPOM_N        ON      ON      ON
+RPOM_N        ON      ON      ON      ON      ON      ON      ON      ON      ON
+RPOM_N        ON      ON      ON
+
+EX COEF    EXH2O    EXSS    EXOM    BETA     EXC    EXIC
+Wb 1        0.25    0.01    0.10    0.45     OFF     OFF
+Wb 2        0.25    0.01    0.10    0.45     OFF     OFF
+Wb 3        0.25    0.01    0.10    0.45     OFF     OFF
+Wb 4        0.25    0.01    0.10    0.45     OFF     OFF
+Wb 5        0.25    0.01    0.10    0.45     OFF     OFF
+Wb 6        0.25    0.01    0.10    0.45     OFF     OFF
+
+ALG EX       EXA     EXA     EXA     EXA     EXA     EXA
+            0.10     0.1     0.1
+
+ZOO EX       EXZ     EXZ     EXZ     EXZ     EXZ     EXZ
+             0.2
+
+MACRO EX     EXM     EXM     EXM     EXM     EXM     EXM
+          0.0100
+
+GENERIC    CGQ10   CG0DK   CG1DK     CGS
+Age         0.00    -1.0     0.0     0.0
+TRACER      0.00     0.0     0.0     0.0
+Colfrm1     1.04     0.0     0.5     0.0
+CONDUCT     0.00     0.0     0.0     0.0
+Chloride    0.00     0.0     0.0     0.0
+
+S SOLIDS     SSS   SEDRC   TAUCR
+             1.5     OFF     0.0
+
+ALGAL RATE    AG      AR      AE      AM      AS    AHSP    AHSN   AHSSI    ASAT
+Alg 1        1.5    0.04    0.04    0.10    0.20   0.003   0.014   0.000    40.0
+Alg 2        1.5    0.04    0.04    0.10    0.20   0.003   0.014   0.000    75.0
+Alg 3        1.7    0.04    0.04    0.10   -2.00   0.003   0.014   0.000   125.0
+
+ALGAL TEMP   AT1     AT2     AT3     AT4     AK1     AK2     AK3     AK4
+Alg 1        8.0    10.0    14.0    16.0     0.1    0.99    0.99    0.10
+Alg 2       10.0    16.0    20.0    25.0     0.1    0.99    0.99    0.10
+Alg 3       20.0    25.0    35.0    40.0     0.1    0.99    0.99    0.10
+
+ALG STOICH  ALGP    ALGN    ALGC   ALGSI   ACHLA    APOM   ANEQN    ANPR
+Alg 1      0.005    0.08    0.45    0.00    0.13     0.8       2   0.001
+Alg 2      0.005    0.08    0.45    0.00    0.13     0.8       2   0.001
+Alg 3     0.0042    0.08    0.45    0.00    0.13     0.8       2   0.001
+
+EPIPHYTE    EPIC    EPIC    EPIC    EPIC    EPIC    EPIC    EPIC    EPIC    EPIC
+Epi 1         ON      ON      ON      ON      ON      ON
+
+EPI PRINT   EPRC    EPRC    EPRC    EPRC    EPRC    EPRC    EPRC    EPRC    EPRC
+Epi 1         ON      ON      ON      ON      ON      ON
+
+EPI INIT   EPICI   EPICI   EPICI   EPICI   EPICI   EPICI   EPICI   EPICI   EPICI
+Epi 1       20.0    -1.0    -1.0    40.0    -1.0    -1.0
+
+EPI RATE      EG      ER      EE      EM      EB    EHSP    EHSN   EHSSI
+Epi 1      1.200   0.040   0.040   0.100   0.001   0.003   0.014   0.000
+
+EPI HALF    ESAT     EHS   ENEQN    ENPR
+Epi 1     150.00    25.0       2   0.005
+
+EPI TEMP     ET1     ET2     ET3     ET4     EK1     EK2     EK3     EK4        
+Epi 1      1.000   3.000  20.000  30.000   0.300   0.990   0.990   0.100
+
+EPI STOI      EP      EN      EC     ESI   ECHLA    EPOM                        
+Epi 1      0.005   0.080   0.450   0.000    0.65   0.800
+
+ZOOP RATE     ZG      ZR      ZM    ZEFF   PREFP  ZOOMIN    ZS2P
+Zoo1        1.50    0.10   0.010    0.50    0.50  0.0100    0.30            
+
+ZOOP ALGP  PREFA   PREFA   PREFA   PREFA   PREFA   PREFA   PREFA   PREFA   PREFA
+Zoo1        1.00    0.50    0.50
+
+ZOOP ZOOP  PREFZ   PREFZ   PREFZ   PREFZ   PREFZ   PREFZ   PREFZ   PREFZ   PREFZ
+Zoo1        0.00    0.00    0.00    
+
+ZOOP TEMP    ZT1     ZT2     ZT3     ZT4     ZK1     ZK2     ZK3     ZK4
+             0.0    15.0    20.0    36.0     0.1     0.9    0.98   0.100
+
+ZOOP STOI     ZP      ZN      ZC
+         0.01500 0.08000 0.45000
+
+MACROPHYT MACWBC  MACWBC  MACWBC  MACWBC  MACWBC  MACWBC  MACWBC  MACWBC  MACWBC
+Mac1         OFF     OFF     OFF     OFF     OFF     OFF
+
+MAC PRINT MPRWBC  MPRWBC  MPRWBC  MPRWBC  MPRWBC  MPRWBC  MPRWBC  MPRWBC  MPRWBC
+Mac1         OFF     OFF     OFF     OFF     OFF     OFF
+
+MAC INI  MACWBCI MACWBCI MACWBCI MACWBCI MACWBCI MACWBCI MACWBCI MACWBCI MACWBCI
+Mac1     0.00000     0.1     0.5     0.0     0.0     0.0
+
+MAC RATE      MG      MR      MM    MSAT    MHSP    MHSN    MHSC    MPOM  LRPMAC
+Mac 1       0.30    0.05    0.05    30.0     0.0     0.0     0.0     0.9     0.2
+
+MAC SED     PSED    NSED
+MAC 1        0.5     0.5
+
+MAC DIST    MBMP    MMAX
+Mac 1       40.0   500.0
+
+MAC DRAG  CDDRAG     DWV    DWSA   ANORM
+Mac 1        3.0 7.0E+04     8.0     0.3
+
+MAC TEMP     MT1     MT2     MT3     MT4     MK1     MK2     MK3     MK4
+Mac 1        7.0    15.0    24.0    34.0     0.1    0.99    0.99    0.01
+
+MAC STOICH    MP      MN      MC
+Mac 1      0.005    0.08    0.45
+
+DOM       LDOMDK  RDOMDK   LRDDK
+Wb 1        0.08   0.001   0.001
+Wb 2        0.08   0.001   0.001
+Wb 3        0.08   0.001   0.001
+Wb 4        0.08   0.001   0.001
+Wb 5        0.08   0.001   0.001
+Wb 6        0.08   0.001   0.001
+
+POM       LPOMDK  RPOMDK   LRPDK    POMS
+Wb 1        0.08   0.001   0.001    0.10
+Wb 2        0.08   0.001   0.001    0.10
+Wb 3        0.08   0.001   0.001    0.10
+Wb 4        0.08   0.001   0.001    0.10
+Wb 5        0.08   0.001   0.001    0.10
+Wb 6        0.08   0.001   0.001    0.10
+
+OM STOICH   ORGP    ORGN    ORGC   ORGSI
+Wb 1       0.005    0.08    0.45    0.18
+Wb 2       0.005    0.08    0.45    0.18
+Wb 3       0.005    0.08    0.45    0.18
+Wb 4       0.005    0.08    0.45    0.18
+Wb 5       0.005    0.08    0.45    0.18
+Wb 6       0.005    0.08    0.45    0.18
+
+OM RATE     OMT1    OMT2    OMK1    OMK2
+Wb 1         4.0    30.0     0.1    0.99
+Wb 2         4.0    30.0     0.1    0.99
+Wb 3         4.0    30.0     0.1    0.99
+Wb 4         4.0    30.0     0.1    0.99
+Wb 5         4.0    30.0     0.1    0.99
+Wb 6         4.0    30.0     0.1    0.99
+
+CBOD        KBOD    TBOD    RBOD   CBODS
+1CBOD     0.0456  1.0147    1.00     0.0            Liberty Lake
+2CBOD     0.1275  1.0147    1.00     0.0            Kaiser
+3CBOD     0.0186  1.0147    1.00     0.0            Inland Empire Paper
+4CBOD     0.0736  1.0147    1.00     0.0            Spokane WTP
+5CBOD     0.0660  1.0147    1.00     0.0            Washington tributaries
+6CBOD     0.0792  1.0147    1.00     0.0             CDA WWTP
+7CBOD     0.0838  1.0147    1.00     0.0             Hayden POTW
+8CBOD     0.0660  1.0147    1.00     0.0             Post Falls STP
+9CBOD     0.1300  1.0147    1.00     0.0             CDA Lake Compartment
+10CBOD    0.0838  1.0147    1.00     0.0             Hayden Summer
+
+CBOD STOIC  BODP    BODN    BODC
+1CBOD      0.020    0.08    0.45
+2CBOD      0.002    0.08    0.45
+3CBOD      0.002    0.08    0.45
+4CBOD      0.016    0.08    0.45
+5CBOD      0.011    0.08    0.45
+6CBOD    0.00047    0.08    0.45
+7CBOD    0.00496    0.08    0.45
+8CBOD    0.00041    0.08    0.45
+9CBOD      0.003    0.06    0.45
+10CBOD    0.0001    0.06    0.45
+
+PHOSPHOR    PO4R   PARTP
+Wb 1       0.010     0.0
+Wb 2       0.010     0.0
+Wb 3       0.010     0.0
+Wb 4       0.010     0.0
+Wb 5       0.010     0.0
+Wb 6       0.010     0.0
+
+AMMONIUM    NH4R   NH4DK
+Wb 1       0.001    0.40
+Wb 2       0.001    0.40
+Wb 3       0.001    0.40
+Wb 4       0.001    0.40
+Wb 5       0.001    0.40
+Wb 6       0.001    0.40
+
+NH4 RATE   NH4T1   NH4T2   NH4K1   NH4K2
+Wb 1         5.0    25.0     0.1    0.99
+Wb 2         5.0    25.0     0.1    0.99
+Wb 3         5.0    25.0     0.1    0.99
+Wb 4         5.0    25.0     0.1    0.99
+Wb 5         5.0    25.0     0.1    0.99
+Wb 6         5.0    25.0     0.1    0.99
+
+NITRATE    NO3DK    NO3S FNO3SED
+Wb 1        0.05 0.00000    0.37
+Wb 2        0.05 0.00000    0.37
+Wb 3        0.05 0.00000    0.37
+Wb 4        0.05 0.00000    0.37
+Wb 5        0.05 0.00000    0.37
+Wb 6        0.05 0.00000    0.37
+
+NO3 RATE   NO3T1   NO3T2   NO3K1   NO3K2
+Wb 1         5.0    25.0     0.1    0.99
+Wb 2         5.0    25.0     0.1    0.99
+Wb 3         5.0    25.0     0.1    0.99
+Wb 4         5.0    25.0     0.1    0.99
+Wb 5         5.0    25.0     0.1    0.99
+Wb 6         5.0    25.0     0.1    0.99
+
+SILICA      DSIR    PSIS   PSIDK  PARTSI
+Wb 1         0.1     0.0     0.3     0.2
+Wb 2         0.1     0.0     0.3     0.2
+Wb 3         0.1     0.0     0.3     0.2
+Wb 4         0.1     0.0     0.3     0.2
+Wb 5         0.1     0.0     0.3     0.2
+Wb 6         0.1     0.0     0.3     0.2
+
+IRON         FER     FES
+Wb 1         0.1     0.0
+Wb 2         0.1     0.0
+Wb 3         0.1     0.0
+Wb 4         0.1     0.0
+Wb 5         0.1     0.0
+Wb 6         0.1     0.0
+
+SED CO2     CO2R
+Wb 1         0.1
+Wb 2         0.1
+Wb 3         0.1
+Wb 4         0.1
+Wb 5         0.1
+Wb 6         0.1
+
+STOICH 1   O2NH4    O2OM
+Wb 1       4.570   1.400
+Wb 2       4.570   1.400
+Wb 3       4.570   1.400
+Wb 4       4.570   1.400
+Wb 5       4.570   1.400
+Wb 6       4.570   1.400
+
+STOICH 2    O2AR    O2AG                                        
+Alg 1      1.100   1.700
+Alg 2      1.100   1.700
+Alg 3      1.100   1.700
+
+STOICH 3    O2ER    O2EG                                        
+Epi 1      1.100   1.400
+
+STOICH 4    O2ZR
+ZOO1     1.10000
+
+STOICH 5    O2MR    O2MG
+MAC1         1.1     1.4
+
+O2 LIMIT   O2LIM
+             0.1
+
+SEDIMENT    SEDC   PRNSC   SEDCI    SEDK    SEDS    FSOD    FSED   SEDBR DYNSEDK
+Wb 1          ON      ON     0.0    0.08     1.0     1.0 1.00000   0.007      ON
+Wb 2          ON      ON     0.0    0.08     1.0     1.0 1.00000   0.007      ON
+Wb 3          ON      ON     0.0    0.08     1.0     1.0 1.00000   0.007      ON
+Wb 4          ON      ON     0.0    0.08     1.0     1.0 1.00000   0.007      ON
+Wb 5          ON      ON     0.0    0.08     1.0     1.0 1.00000   0.007      ON
+Wb 6          ON      ON     0.0    0.08     1.0     1.0 1.00000   0.007      ON
+
+SOD RATE   SODT1   SODT2   SODK1   SODK2
+Wb 1         4.0    30.0     0.1    0.99
+Wb 2         4.0    30.0     0.1    0.99
+Wb 3         4.0    30.0     0.1    0.99
+Wb 4         4.0    30.0     0.1    0.99
+Wb 5         4.0    30.0     0.1    0.99
+Wb 6         4.0    30.0     0.1    0.99
+
+S DEMAND     SOD     SOD     SOD     SOD     SOD     SOD     SOD     SOD     SOD
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.5     0.5     0.5     0.5
+             0.5     0.5     0.5     0.5     0.5     0.8     0.8     0.8     0.8
+             0.8     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.5     0.5     0.5     0.5     0.5     0.5     0.5
+             0.5     0.5     0.5     0.5     0.5     0.5     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1  126
+             0.1     0.1     0.1     0.3     0.3     0.3     0.3     0.3     0.3  135
+             0.3     0.3     0.3     0.3     0.3     0.3     0.3     0.3     0.3  144
+             0.3     0.3     0.3     0.3     0.3     0.3     0.3     0.3     0.3  153
+             0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1     0.1  162
+             0.3     0.3     0.3     0.3     0.3     0.3     0.3     0.3     0.3  171
+             0.3     0.3     0.3     0.3     0.3     0.6     0.6     0.6     0.6  180
+             0.6     0.6     0.6     0.6     0.6     0.6     0.6     0.6     0.6  189
+
+REAERATION  TYPE    EQN#   COEF1   COEF2   COEF3   COEF4
+jr1        RIVER       7
+jr2         LAKE       6
+jr3         LAKE       6
+jr4        RIVER       7    0.04     0.0     0.0     0.0
+jr5         LAKE       6
+jr6         LAKE       6
+
+RSI FILE...............................RSIFN....................................
+        rsi.npt
+
+QWD FILE...............................QWDFN....................................
+        qwd.npt
+
+QGT FILE...............................QGTFN....................................
+        qgt.npt
+
+WSC FILE...............................WSCFN....................................
+        wsc.npt
+
+SHD FILE...............................SHDFN....................................
+        shade.npt
+
+BTH FILE...............................BTHFN....................................
+Wb 1    bth1.npt
+Wb 2    bth2.npt
+Wb 3    bth3.npt
+Wb 4    bth4.npt
+Wb 5    bth5.npt
+Wb 6    bth6.npt
+
+MET FILE...............................METFN....................................
+Wb 1    met01jr1.npt
+Wb 2    met01jr2.npt
+Wb 3    met01jr3.npt
+Wb 4    met01jr4.npt
+Wb 5    met01jr5.npt
+Wb 6    met01jr6z.npt
+
+EXT FILE...............................EXTFN....................................
+Wb 1    ext_wb1.npt - not used
+Wb 2    ext_wb2.npt - not used
+Wb 3    ext_wb3.npt - not used
+Wb 4    ext_wb3.npt - not used
+Wb 5    ext_wb3.npt - not used
+Wb 6    ext_wb3.npt - not used
+
+VPR FILE...............................VPRFN....................................
+Wb 1    vpr01wb1.npt
+Wb 2    vpr01wb2.npt
+Wb 3    vpr01wb3.npt
+Wb 4    vpr01wb4.npt
+Wb 5    vpr01wb5.npt
+Wb 6    vpr01wb6.npt
+
+LPR FILE...............................LPRFN....................................
+Wb 1    lpr_wb1.npt - not used
+Wb 2    lpr_wb2.npt - not used
+Wb 3    lpr_wb3.npt - not used
+Wb 4
+Wb 5
+Wb 6
+
+QIN FILE...............................QINFN....................................
+Br 1    stateq01.npt
+Br 2    
+br 3
+br 4
+Br 5    qin_br5.npt
+Br 6    qin_br6.npt        
+br 7           
+br 8    qin_br8.npt
+Br 9                 
+Br 10   qin_br10.npt
+br 11          
+br 12   qin_br12.npt
+
+TIN FILE...............................TINFN....................................
+Br 1    two_62.npt
+Br 2    
+Br 3
+Br 4
+Br 5    tin_br5.npt
+Br 6    tin_br6.npt
+br 7           
+br 8    tin_br8.npt
+Br 9                 
+Br 10   tin_br10.npt
+br 11          
+br 12   tin_br12.npt
+
+CIN FILE...............................CINFN....................................
+Br 1    cwo_62.npt
+Br 2    
+Br 3
+Br 4
+Br 5    Cin_br5.npt          
+Br 6    cin_br6.npt        
+br 7           
+br 8    cin_br8.npt
+Br 9                 
+Br 10   cin_br10.npt     
+br 11          
+br 12   cin_br11.npt
+
+QOT FILE...............................QOTFN....................................
+Br 1    qot1.npt
+Br 2    qot2.npt
+Br 3    qot3.npt
+Br 4    qot4.npt
+Br 5    qur_01.npt
+Br 6    qot6.npt
+br 7    quf_01.npt
+br 8    qot8.npt
+Br 9    qot9.npt             
+Br 10   qot10.npt     
+br 11   q9m_01.npt
+br 12   qll_01.npt
+
+QTR FILE...............................QTRFN....................................
+tr1     libertyq01.npt
+tr2     kaiserq01.npt
+tr3     IEPCq01.npt
+tr4     hangq01.npt
+tr5     spkwwtpq01.npt
+tr6     couleeq01.npt
+tr7     lspkq01.npt
+
+TTR FILE...............................TTRFN....................................
+tr1     libertyt01.npt
+tr2     kaisert01.npt
+tr3     IEPCt01.npt
+tr4     hangt01.npt
+tr5     spkwwtpt01.npt
+tr6     couleet01.npt
+tr7     lspkt01.npt
+
+CTR FILE...............................CTRFN....................................
+tr1     libertyc01.npt
+tr2     kaiserc01.npt
+tr3     IEPCc01.npt
+tr4     hangc01.npt
+tr5     spkwwtpc01.npt
+tr6     couleec01.npt
+tr7     lspkc01.npt
+
+QDT FILE...............................QDTFN....................................
+Br 1    qdt_br1.npt
+Br 2    qdt_br2.npt
+Br 3    qdt_br3.npt
+Br 4    qdt_br4.npt
+Br 5    qdt_br5.npt
+Br 6    qdt_br6.npt
+br 7    qdt_br7.npt
+br 8    qdt_br8.npt
+Br 9    qdt_br9.npt
+Br 10   qdt_br10.npt
+br 11   qdt_br11.npt
+br 12   LLdistq01.npt  
+
+TDT FILE...............................TDTFN....................................
+Br 1    tdt_br1.npt
+Br 2    tdt_br2.npt
+Br 3    tdt_br3.npt
+Br 4    tdt_br4.npt
+Br 5    tdt_br5.npt
+Br 6    tdt_br6.npt
+br 7    tdt_br7.npt
+br 8    tdt_br8.npt
+Br 9    tdt_br9.npt
+Br 10   tdt_br10.npt
+br 11   tdt_br11.npt
+br 12   LLdistt01.npt
+
+CDT FILE...............................CDTFN....................................
+Br 1    cdt_br1.npt
+Br 2    cdt_br2.npt
+Br 3    cdt_br3.npt
+Br 4    cdt_br4.npt
+Br 5    cdt_br5.npt             
+Br 6    cdt_br6.npt        
+br 7    cdt_br7.npt       
+br 8    cdt_br8.npt
+Br 9    cdt_br9.npt             
+Br 10   cdt_br10.npt     
+br 11   cdt_br11.npt       
+br 12   cdt_br12.npt 
+
+PRE FILE...............................PREFN....................................
+Br 1    pre_br1.npt - not used
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+
+TPR FILE...............................TPRFN....................................
+Br 1    tpr_br1.npt - not used
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+
+CPR FILE...............................CPRFN....................................
+Br 1    cpr_br1.npt - not used
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+
+EUH FILE...............................EUHFN....................................
+Br 1    
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+
+TUH FILE...............................TUHFN....................................
+Br 1    
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+
+CUH FILE...............................CUHFN....................................
+Br 1    
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+
+EDH FILE...............................EDHFN....................................
+Br 1    
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+ 
+TDH FILE...............................TDHFN....................................
+Br 1    
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+
+CDH FILE...............................CDHFN....................................
+Br 1    
+Br 2
+Br 3
+Br 4
+Br 5                 
+Br 6
+br 7           
+br 8
+Br 9                 
+Br 10        
+br 11          
+br 12
+
+SNP FILE...............................SNPFN....................................
+jr 1    snp1.opt
+jr 2    snp2.opt
+jr 3    snp3.opt
+jr 4    snp4.opt
+jr 5    snp5.opt
+jr 6    snp6.opt
+
+PRF FILE...............................PRFFN....................................
+jr 1    prf1.opt
+jr 2    prf2.opt
+jr 3    prf3.opt
+jr 4    prf4.opt
+jr 5    prf5.opt
+jr 6    prf6.opt
+
+VPL FILE...............................VPLFN....................................
+jr 1    vpl1.opt
+jr 2    vpl2.opt
+jr 3    vpl3.opt
+jr 4    vpl4.opt
+jr 5    vpl5.opt
+jr 6    vpl6.opt
+
+CPL FILE...............................CPLFN....................................
+jr 1    cpl1.opt
+jr 2    cpl2.opt
+jr 3    cpl3.opt
+jr 4    cpl4.opt
+jr 5    cpl5.opt
+jr 6    cpl6.opt
+
+SPR FILE...............................SPRFN....................................
+jr 1    spr1.opt
+jr 2    spr2.opt
+jr 3    spr3.opt
+jr 4    spr4.opt
+jr 5    spr5.opt
+jr 6    spr6.opt
+
+FLX FILE...............................KFLFN....................................
+jr 1    kfl1.opt
+jr 2    kfl2.opt
+jr 3    kfl3.opt
+jr 4    kfl4.opt
+jr 5    kfl5.opt
+jr 6    kfl6.opt
+
+TSR FILE...............................TSRFN....................................
+        tsr.opt
+
+WDO FILE...............................WDOFN....................................
+        wdo.opt

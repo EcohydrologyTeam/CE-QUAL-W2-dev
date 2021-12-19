@@ -1,0 +1,7 @@
+"Name","Parameter","Constituent_Name","Units","Data_Column","Filename","Output_Timestep"
+"tin_br1","temperature","Celsius","1/1","two_28_LMN.opt",    0.041670
+"tdt_br1","temperature","Celsius","1/1","two_28_LMN.opt",    0.041670
+"cin_br1","N2","g/m^3","1/2","cwo_28_LMN.opt",    0.041670
+"cin_br1","DO","g/m^3","2/2","cwo_28_LMN.opt",    0.041670
+"cdt_br1","N2","g/m^3","1/2","cwo_28_LMN.opt",    0.041670
+"cdt_br1","DO","g/m^3","2/2","cwo_28_LMN.opt",    0.041670

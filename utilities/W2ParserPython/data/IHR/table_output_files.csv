@@ -1,0 +1,266 @@
+"Name","Segment","Parameter","Units","Data_Column","Filename","Output_Timestep"
+"Time Series File 1 Segment 34 Depth 0.50 m","34","DLT","s","1/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","ELWS","m","2/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","T2","Celsius","3/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","U","m/s","4/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","Q","m^3/s","5/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","SRON","W/m^2","6/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","EXT","1/m","7/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","Depth","m","8/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","WIDTH","m","9/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","SHADE","","10/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","NetRad","W/m^2","12/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","SWSolar","W/m^2","13/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","LWRad","W/m^2","14/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","BackRad","W/m^2","15/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","EvapF","W/m^2","16/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","ConducF","W/m^2","17/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","N2","g/m^3","18/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","DO","g/m^3","19/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 1 Segment 34 Depth 0.50 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_1_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","DLT","s","1/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","ELWS","m","2/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","T2","Celsius","3/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","U","m/s","4/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","Q","m^3/s","5/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","SRON","W/m^2","6/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","EXT","1/m","7/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","Depth","m","8/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","WIDTH","m","9/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","SHADE","","10/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","NetRad","W/m^2","12/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","SWSolar","W/m^2","13/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","LWRad","W/m^2","14/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","BackRad","W/m^2","15/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","EvapF","W/m^2","16/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","ConducF","W/m^2","17/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","N2","g/m^3","18/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","DO","g/m^3","19/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 2 Segment 34 Depth 1.50 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_2_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","DLT","s","1/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","ELWS","m","2/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","T2","Celsius","3/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","U","m/s","4/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","Q","m^3/s","5/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","SRON","W/m^2","6/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","EXT","1/m","7/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","Depth","m","8/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","WIDTH","m","9/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","SHADE","","10/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","NetRad","W/m^2","12/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","SWSolar","W/m^2","13/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","LWRad","W/m^2","14/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","BackRad","W/m^2","15/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","EvapF","W/m^2","16/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","ConducF","W/m^2","17/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","N2","g/m^3","18/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","DO","g/m^3","19/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 3 Segment 34 Depth 3.00 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_3_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","DLT","s","1/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","ELWS","m","2/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","T2","Celsius","3/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","U","m/s","4/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","Q","m^3/s","5/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","SRON","W/m^2","6/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","EXT","1/m","7/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","Depth","m","8/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","WIDTH","m","9/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","SHADE","","10/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","NetRad","W/m^2","12/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","SWSolar","W/m^2","13/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","LWRad","W/m^2","14/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","BackRad","W/m^2","15/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","EvapF","W/m^2","16/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","ConducF","W/m^2","17/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","N2","g/m^3","18/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","DO","g/m^3","19/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 4 Segment 34 Depth 5.00 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_4_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","DLT","s","1/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","ELWS","m","2/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","T2","Celsius","3/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","U","m/s","4/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","Q","m^3/s","5/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","SRON","W/m^2","6/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","EXT","1/m","7/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","Depth","m","8/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","WIDTH","m","9/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","SHADE","","10/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","NetRad","W/m^2","12/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","SWSolar","W/m^2","13/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","LWRad","W/m^2","14/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","BackRad","W/m^2","15/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","EvapF","W/m^2","16/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","ConducF","W/m^2","17/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","N2","g/m^3","18/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","DO","g/m^3","19/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 5 Segment 34 Depth 10.00 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_5_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","DLT","s","1/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","ELWS","m","2/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","T2","Celsius","3/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","U","m/s","4/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","Q","m^3/s","5/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","SRON","W/m^2","6/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","EXT","1/m","7/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","Depth","m","8/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","WIDTH","m","9/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","SHADE","","10/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","NetRad","W/m^2","12/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","SWSolar","W/m^2","13/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","LWRad","W/m^2","14/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","BackRad","W/m^2","15/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","EvapF","W/m^2","16/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","ConducF","W/m^2","17/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","N2","g/m^3","18/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","DO","g/m^3","19/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 6 Segment 34 Depth 15.00 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_6_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","DLT","s","1/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","ELWS","m","2/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","T2","Celsius","3/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","U","m/s","4/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","Q","m^3/s","5/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","SRON","W/m^2","6/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","EXT","1/m","7/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","Depth","m","8/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","WIDTH","m","9/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","SHADE","","10/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","NetRad","W/m^2","12/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","SWSolar","W/m^2","13/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","LWRad","W/m^2","14/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","BackRad","W/m^2","15/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","EvapF","W/m^2","16/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","ConducF","W/m^2","17/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","N2","g/m^3","18/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","DO","g/m^3","19/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 7 Segment 34 Depth 20.00 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_7_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","DLT","s","1/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","ELWS","m","2/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","T2","Celsius","3/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","U","m/s","4/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","Q","m^3/s","5/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","SRON","W/m^2","6/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","EXT","1/m","7/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","Depth","m","8/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","WIDTH","m","9/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","SHADE","","10/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","NetRad","W/m^2","12/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","SWSolar","W/m^2","13/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","LWRad","W/m^2","14/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","BackRad","W/m^2","15/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","EvapF","W/m^2","16/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","ConducF","W/m^2","17/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","N2","g/m^3","18/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","DO","g/m^3","19/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 8 Segment 34 Depth 25.00 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_8_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","DLT","s","1/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","ELWS","m","2/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","T2","Celsius","3/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","U","m/s","4/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","Q","m^3/s","5/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","SRON","W/m^2","6/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","EXT","1/m","7/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","Depth","m","8/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","WIDTH","m","9/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","SHADE","","10/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","NetRad","W/m^2","12/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","SWSolar","W/m^2","13/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","LWRad","W/m^2","14/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","BackRad","W/m^2","15/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","EvapF","W/m^2","16/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","ConducF","W/m^2","17/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","N2","g/m^3","18/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","DO","g/m^3","19/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 9 Segment 34 Depth 30.00 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_9_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","DLT","s","1/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","ELWS","m","2/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","T2","Celsius","3/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","U","m/s","4/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","Q","m^3/s","5/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","SRON","W/m^2","6/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","EXT","1/m","7/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","Depth","m","8/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","WIDTH","m","9/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","SHADE","","10/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","Tvolavg","W/m^2","11/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","NetRad","W/m^2","12/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","SWSolar","W/m^2","13/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","LWRad","W/m^2","14/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","BackRad","W/m^2","15/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","EvapF","W/m^2","16/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","ConducF","W/m^2","17/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","N2","g/m^3","18/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","DO","g/m^3","19/20","IHR_tsr_10_seg34.opt",    0.041670
+"Time Series File 10 Segment 34 Depth 35.00 m","34","Oxygen % Gas Saturation","","20/20","IHR_tsr_10_seg34.opt",    0.041670
+"Segment 34 Withdrawal flow","34","QWD","m^3/s","1/1","qwo_34.opt",    0.041670
+"Segment 34 Withdrawal Temperature","34","T","Celsius","1/1","two_34.opt",    0.041670
+"Segment 34 Withdrawal constituent","34","N2","g/m^3","1/2","cwo_34.opt",    0.041670
+"Segment 34 Withdrawal constituent","34","DO","g/m^3","2/2","cwo_34.opt",    0.041670
+"Segment 34 Withdrawal Derived Constituent","34","Oxygen % Gas Saturation","","1/1","dwo_34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate1_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate1_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate1_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate1_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate1_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate2_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate2_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate2_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate2_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate2_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate3_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate3_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate3_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate3_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate3_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate4_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate4_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate4_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate4_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate4_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate5_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate5_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate5_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate5_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate5_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate6_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate6_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate6_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate6_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate6_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate7_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate7_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate7_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate7_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate7_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate8_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate8_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate8_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate8_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate8_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate9_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate9_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate9_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate9_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate9_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate10_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate10_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate10_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate10_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate10_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate11_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate11_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate11_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate11_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate11_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 flow","34","QWD","m^3/s","1/1","qwo_gate12_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 temperature","34","T","Celsius","1/1","two_gate12_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","N2","g/m^3","1/2","cwo_gate12_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 constituents","34","DO","g/m^3","2/2","cwo_gate12_seg34.opt",    0.041670
+"GATE WITHDRAWAL AT SEG34 derived constituents","34","Oxygen % Gas Saturation","","1/1","dwo_gate12_seg34.opt",    0.041670

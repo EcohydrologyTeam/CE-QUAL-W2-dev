@@ -1,0 +1,5 @@
+"Name","Inflow/Outflow","Type","Units","Q_Column","Filename","Output_Timestep"
+"qin_br1","inflow","upstream branch inflow","m^3/s","1/1","DWORSHAK_INFLOW.csv",    1.000000
+"qin_br2","inflow","upstream branch inflow","m^3/s","1/1","DWR-BR2-2011-2015-QIN.npt", 1826.000000
+"qin_br3","inflow","upstream branch inflow","m^3/s","1/1","DWR-BR3-2011-2015-QIN.npt", 1826.000000
+"qdt_br1","inflow","distributed tributary","m^3/s","1/1","DWR_QDT.npt",    1.000000

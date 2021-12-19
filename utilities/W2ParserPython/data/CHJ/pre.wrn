@@ -1,0 +1,19 @@
+Cell width [B(30,6)=2.750] < 5m which can cause stability problems
+Cell width [B(31,7)=2.500] < 5m which can cause stability problems
+Cell width [B(27,11)=3.825] < 5m which can cause stability problems
+Cell width [B(27,12)=2.525] < 5m which can cause stability problems
+Cell width [B(34,21)=2.500] < 5m which can cause stability problems
+Cell width [B(34,22)=2.500] < 5m which can cause stability problems
+Cell width [B(35,23)=2.500] < 5m which can cause stability problems
+Cell width [B(34,26)=4.236] < 5m which can cause stability problems
+Cell width [B(38,30)=2.500] < 5m which can cause stability problems
+Cell width [B(39,31)=3.105] < 5m which can cause stability problems
+Cell width [B(45,33)=2.500] < 5m which can cause stability problems
+Cell width [B(48,35)=2.500] < 5m which can cause stability problems
+Cell width [B(44,36)=2.500] < 5m which can cause stability problems
+Cell width [B(43,37)=2.500] < 5m which can cause stability problems
+Cell width [B(45,39)=2.500] < 5m which can cause stability problems
+Cell width [B(45,42)=3.825] < 5m which can cause stability problems
+Cell width [B(35,23)=2.500] < or > 10X width [B(35,24)=28.110]
+MET Warning: Check cloud cover since average [CloudCoverAverage:  2.981] < 3.0 [Note that CLOUD should be between 0-10] for WB:  1 in CJDW_EATW_CHJ_2011_2015_MET_withBP.csv                                  
+No structures defined [NSTR=0] for downstream flow boundary in branch 1

@@ -1,0 +1,27 @@
+TITLE = "PARTICLE INFO for Branch     4"
+VARIABLES = "X", "Z", "FSIZE", "FAGE", "WATER", "ISEG", "K"
+ZONE T="JDAY   4384.00", I=      1, F=POINT
+           0.01      0.01     0.00     0.00  -1   0   0
+TEXT X=47, Y=90, F=HELV-BOLD, HU=FRAME, AN=MIDCENTER,C=RED, H=2.5, T="   January  1, 2012     12am    (JDAY4384.000)", ZN=     1
+TEXT X=30.0, Y=21.0, F=HELV-BOLD, HU=FRAME,AN=MIDRIGHT, C=BLACK, H=2.1, T="     0", ZN=     1
+TEXT X=25.0, Y=25.0, F=HELV-BOLD, HU=FRAME,AN=MIDCENTER, C=BLACK, H=2.1, T="# of Particles"
+  
+ZONE T="JDAY   4385.00", I=      1, F=POINT
+           0.01      0.01     0.00     0.00  -1   0   0
+TEXT X=47, Y=90, F=HELV-BOLD, HU=FRAME, AN=MIDCENTER,C=RED, H=2.5, T="   January  2, 2012     12am    (JDAY4385.000)", ZN=     2
+TEXT X=30.0, Y=21.0, F=HELV-BOLD, HU=FRAME,AN=MIDRIGHT, C=BLACK, H=2.1, T="     0", ZN=     2
+  
+ZONE T="JDAY   4386.00", I=      1, F=POINT
+           0.01      0.01     0.00     0.00  -1   0   0
+TEXT X=47, Y=90, F=HELV-BOLD, HU=FRAME, AN=MIDCENTER,C=RED, H=2.5, T="   January  3, 2012     12am    (JDAY4386.003)", ZN=     3
+TEXT X=30.0, Y=21.0, F=HELV-BOLD, HU=FRAME,AN=MIDRIGHT, C=BLACK, H=2.1, T="     0", ZN=     3
+  
+ZONE T="JDAY   4387.00", I=      1, F=POINT
+           0.01      0.01     0.00     0.00  -1   0   0
+TEXT X=47, Y=90, F=HELV-BOLD, HU=FRAME, AN=MIDCENTER,C=RED, H=2.5, T="   January  4, 2012     12am    (JDAY4387.003)", ZN=     4
+TEXT X=30.0, Y=21.0, F=HELV-BOLD, HU=FRAME,AN=MIDRIGHT, C=BLACK, H=2.1, T="     0", ZN=     4
+  
+ZONE T="JDAY   4388.01", I=      1, F=POINT
+           0.01      0.01     0.00     0.00  -1   0   0
+TEXT X=47, Y=90, F=HELV-BOLD, HU=FRAME, AN=MIDCENTER,C=RED, H=2.5, T="   January  5, 2012     12am    (JDAY4388.006)", ZN=     5
+TEXT X=30.0, Y=21.0, F=HELV-BOLD, HU=FRAME,AN=MIDRIGHT, C=BLACK, H=2.1, T="     0", ZN=     5

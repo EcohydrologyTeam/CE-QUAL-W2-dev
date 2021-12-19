@@ -1,0 +1,26 @@
+MET Warning: Interpolation of met data over longer than a few hours is not recommended. Difference between Jday values is     2.209 at JDAY:   23.910 in met.npt                                                                 
+MET Warning: Interpolation of met data over longer than a few hours is not recommended. Difference between Jday values is     1.873 at JDAY:   51.118 in met.npt                                                                 
+Heat exchange solution control [SLHTC=      ET] /= " NOT RECOMMENDED. TERM is more accurate. This is for waterbody 1
+Initial constituent concentration = 0 for constituent 2 in waterbody 1
+Initial constituent concentration = 0 for constituent 3 in waterbody 1
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for branch 1
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for branch 2
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 1
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 2
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 3
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 4
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 5
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 6
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 7
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 8
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 9
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 10
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 11
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 12
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 13
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 14
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 15
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 16
+Constituent 3 is " ON", but inflow constituent concentration is "OFF" for tributary 17
+Phosphorus/organic matter stoichiometry [ORGP=.010] /= 0.005 for waterbody 1
+Carbon/organic matter stoichiometry [ORGC=.500] /= 0.45 for waterbody 1

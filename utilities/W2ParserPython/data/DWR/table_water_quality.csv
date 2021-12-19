@@ -1,0 +1,13 @@
+"Name","Parameter","Constituent_Name","Units","Data_Column","Filename","Output_Timestep"
+"tin_br1","temperature","Celsius","1/1","DWR-2011-2015-TIN.csv",    0.011133
+"tin_br2","temperature","Celsius","1/1","DWR-2011-2015-TIN.csv",    0.011133
+"tin_br3","temperature","Celsius","1/1","DWR-2011-2015-TIN.csv",    0.011133
+"tdt_br1","temperature","Celsius","1/1","DWR-2011-2015-TIN.csv",    0.011133
+"cin_br1","N2","g/m^3","1/2","DWR-2011-2015-CIN-DWQI.csv",    0.042970
+"cin_br1","DO","g/m^3","2/2","DWR-2011-2015-CIN-DWQI.csv",    0.042970
+"cin_br2","N2","g/m^3","1/2","DWR-2011-2015-CIN-DWQI.csv",    0.042970
+"cin_br2","DO","g/m^3","2/2","DWR-2011-2015-CIN-DWQI.csv",    0.042970
+"cin_br3","N2","g/m^3","1/2","DWR-2011-2015-CIN-DWQI.csv",    0.042970
+"cin_br3","DO","g/m^3","2/2","DWR-2011-2015-CIN-DWQI.csv",    0.042970
+"cdt_br1","N2","g/m^3","1/2","DWR-2011-2015-CIN-DWQI.csv",    0.042970
+"cdt_br1","DO","g/m^3","2/2","DWR-2011-2015-CIN-DWQI.csv",    0.042970

@@ -1,0 +1,28 @@
+CE-QUAL-W2 SYSTDG
+
+TITLE C ...............................TITLE..................................
+        1  SYSTDG input control file: LWG 2011 (drg 12122017)
+        2  NAVD88 TWCE & TWE file
+        3  MISCELL     NDAY SELECTC HABTATC ENVIRPC AERATEC INITUWL  SYSTDG
+        4               100     OFF     OFF     OFF     OFF     OFF      ON
+        5
+        6  GATE GAS  GASGTC = ON
+        7  The model calculates N2 and DO concentrations based on their saturations 
+        8  for all inflow boundaries if N2BND and DOBND are set to ON
+        9  4 TDG production calculation equations
+        10 3 entrainment flow calculation equations
+
+GATE         FBE    TWCE  TWEMOD     TWE   TWETS
+SPB1        -1.0  588.40       0  638.80      ON
+
+GATE TDG   TDGEQ      P1      P2      P3      P4      P1      P2      P3      P4
+SPB1           3    2.84   0.764   0.535    0.10
+
+GATE ENT   ENTEQ      E1      E2      E1      E2
+SPB1           1    0.00    0.00    0.00    0.00
+
+GATE           C       C       C       C       C       C       C       C
+SPB1           1   0.444   0.010
+
+TWETS FILE................................TWEFN.................................
+SPB1    LWG_TW_Elev_2011-2015.csv
