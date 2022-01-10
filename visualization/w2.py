@@ -18,8 +18,21 @@ plt.rcParams['ytick.color'] = 'black'
 plt.rcParams['figure.subplot.hspace'] = 0.05  # Shrink the horizontal space
 
 # Custom curve colors
-custom_colors = ['#3366CC', '#0099C6', '#109618', '#FCE030',
-                 '#FF9900', '#DC3912']  # (blue, teal, green, yellow, orange, red)
+# Using mountain and lake names for new color palettes
+rainbow = ['#3366CC', '#0099C6', '#109618', '#FCE030', '#FF9900', '#DC3912']  # (blue, teal, green, yellow, orange, red)
+everest = ['#3366CC', '#DC4020', '#10AA18', '#0099C6', '#FCE030', '#FF9900', ]  # (blue, red, green, teal, yellow, orange)
+
+k2 = (
+    sns.color_palette('husl', desat=0.8)[4], # blue
+    sns.color_palette('tab10')[3], # red
+    sns.color_palette('deep')[2], # green
+    sns.color_palette('tab10', desat=0.8)[1], # purple
+    sns.color_palette('deep', desat=0.8)[4], # purple
+    sns.color_palette('colorblind')[2], # sea green
+    sns.color_palette('colorblind')[0], # deep blue
+    sns.color_palette('husl')[0], # light red
+)
+
 
 # Define string formatting constants, which work in string format statements
 DEG_C_ALT = u'\N{DEGREE SIGN}C'
@@ -84,9 +97,32 @@ def dataframe_to_date_format(year: int, data_frame: pandas.DataFrame):
     return data_frame
 
 
-def read(infile: str, year: int, data_columns: list[str],
-         skiprows: int = 3, file_type: FileType = None):
-    '''Read CE-QUAL-W2 time series data (npt and csv formats)'''
+def read_npt(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
+    '''Read CE-QUAL-W2 time series (fixed-width format, *.npt files)'''
+
+    ncols_to_read = len(data_columns) + 1  # number of columns to read, including the date/day column
+    columns_to_read = ['DoY', *data_columns]
+    return pandas.read_fwf(infile, skiprows=skiprows, widths=ncols_to_read*[8], names=columns_to_read, index_col=0)
+
+
+def read_csv(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
+    '''Read CE-QUAL-W2 time series (CSV format)'''
+
+    try:
+        df = pandas.read_csv(infile, skiprows=skiprows, names=data_columns, index_col=0)
+    except:
+        # Handle trailing comma, which adds an extra (empty) column
+        df = pandas.read_csv(infile, skiprows=skiprows, names=[*data_columns, 'JUNK'], index_col=0)
+        df = df.drop(axis=1, labels='JUNK')
+    return df
+
+
+def read(infile: str, year: int, data_columns: list[str], skiprows: int = 3, file_type: FileType = None):
+    '''
+    Read CE-QUAL-W2 time series data (npt and csv formats) and convert the Day of Year (Julian Day) to date-time format
+
+    This function automatically detects the file type, if the file is named with *.npt or *.csv extensions. 
+    '''
 
     # If not defined, set the file type using the input filename
     if not file_type:
@@ -99,16 +135,9 @@ def read(infile: str, year: int, data_columns: list[str],
 
     # Read the data
     if file_type == FileType.fixed_width:
-        ncols_to_read = len(data_columns) + 1  # number of columns to read, including the date/day column
-        columns_to_read = ['DoY', *data_columns]
-        df = pandas.read_fwf(infile, skiprows=skiprows, widths=ncols_to_read*[8], names=columns_to_read, index_col=0)
+        df = read_npt(infile, year, data_columns, skiprows=skiprows)
     elif file_type == FileType.csv:
-        try:
-            df = pandas.read_csv(infile, skiprows=skiprows, names=data_columns, index_col=0)
-        except:
-            # Handle trailing comma, which adds an extra (empty) column
-            df = pandas.read_csv(infile, skiprows=skiprows, names=[*data_columns, 'JUNK'], index_col=0)
-            df = df.drop(axis=1, labels='JUNK')
+        df = read_csv(infile, year, data_columns, skiprows=skiprows)
     else:
         raise Exception('Error: file_type is not defined correctly.')
 
@@ -122,33 +151,68 @@ def read_met(infile: str, year: int, data_columns: list[str] = None, skiprows: i
     '''Read meteorology time series'''
     if not data_columns:
         data_columns = [
-            f'Air Temperature (^oC)',
-            f'Dew Point Temperature (^oC)',
-            f'Wind Speed (m/s)',
-            f'Wind Direction (radians)',
-            f'Cloudiness (fraction)',
-            f'Solar Radiation ($W/m^2$)'
+            'Air Temperature ($^oC$)',
+            'Dew Point Temperature ($^oC$)',
+            'Wind Speed (m/s)',
+            'Wind Direction (radians)',
+            'Cloudiness (fraction)',
+            'Solar Radiation ($W/m^2$)'
         ]
 
     return read(infile, year, data_columns, skiprows=skiprows)
 
 
-def plot(df, title: str = None, legend_list: list[str] = None, xlabel: str = None, ylabel: str = None,
-         colors=custom_colors, figsize=(15, 10), multi_plot_figsize=(15, 21),
-         line_color=DEFAULT_COLOR, multiplot: bool = False, style: str = '-', **kwargs):
-    if multiplot:
-        fig, axes = plt.subplots(figsize=multi_plot_figsize)
-        plt.subplots_adjust(top=0.97)  # Save room for the plot title
-        axes.set_prop_cycle("color", custom_colors)
-        subplot_axes = df.plot(subplots=True, ax=axes, sharex=True, legend=False, title=title, style=style)
-        if title:
-            axes.set_title(title)
-        # Iterate through subplot axes and met variables and label the y-axis on each subplot
-        for ax, var in zip(subplot_axes, df.columns):
-            ax.set_ylabel(var)
-    else:
-        fig, axes = plt.subplots(figsize=figsize)
-        df.plot(ax=axes, title=title, ylabel=ylabel, color=line_color, style=style)
+def get_colors(df: pandas.DataFrame, palette: str, min_colors=6):
+    '''Get list of colors from the specified Seaborn color palette'''
+
+    colors = sns.color_palette(palette, min(min_colors, len(df.columns)))
+    return colors
+
+
+def plot(df, title: str = None, legend_list: list[str] = None,
+         xlabel: str = None, ylabel: str = None, colors: list[str] = None,
+         figsize=(15, 9), style: str = '-', palette: str = 'colorblind', **kwargs):
+    '''Plot all columns in one figure'''
+
+    fig, axes = plt.subplots(figsize=figsize)
+
+    if not colors:
+        colors = get_colors(df, palette, min_colors=6)
+
+    axes.set_prop_cycle("color", colors)
+
+    df.plot(ax=axes, title=title, ylabel=ylabel, style=style)
+
+    if legend_list:
+        axes.legend(legend_list)
+
+    fig.tight_layout()  # This resolves a lot of layout issues
+
+
+def multiplot(df, title: str = None, legend_list: list[str] = None, xlabel: str = None,
+              ylabels: list[str] = None, colors: list[str] = None, figsize=(15, 21),
+              style: str = '-', palette: str = 'colorblind', **kwargs):
+    '''Plot each column as a separate subplot'''
+
+    fig, axes = plt.subplots(figsize=figsize)
+    plt.subplots_adjust(top=0.97)  # Save room for the plot title
+
+    if not colors:
+        colors = get_colors(df, palette, min_colors=6)
+
+    axes.set_prop_cycle("color", colors)
+
+    subplot_axes = df.plot(subplots=True, ax=axes, sharex=True, legend=False, title=title, style=style, color=colors)
+
+    if title:
+        axes.set_title(title)
+
+    if not ylabels:
+        ylabels = df.columns
+
+    # Label each sub-plot's y-axis
+    for ax, ylabel in zip(subplot_axes, ylabels):
+        ax.set_ylabel(ylabel)
 
     if legend_list:
         axes.legend(legend_list)
