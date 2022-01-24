@@ -1,7 +1,8 @@
-import pandas
+import pandas as pd
 from matplotlib import pyplot as plt
 import datetime
 import seaborn as sns
+import h5py
 import warnings
 from enum import Enum
 warnings.filterwarnings("ignore")
@@ -81,7 +82,7 @@ def day_of_year_to_datetime(year: int, day_of_year_list: list):
     return datetimes
 
 
-def dataframe_to_date_format(year: int, data_frame: pandas.DataFrame):
+def dataframe_to_date_format(year: int, data_frame: pd.DataFrame):
     '''
     Convert the day-of-year column in a CE-QUAL-W2 data frame
     to datetime objects
@@ -102,17 +103,17 @@ def read_npt(infile: str, year: int, data_columns: list[str], skiprows: int = 3)
 
     ncols_to_read = len(data_columns) + 1  # number of columns to read, including the date/day column
     columns_to_read = ['DoY', *data_columns]
-    return pandas.read_fwf(infile, skiprows=skiprows, widths=ncols_to_read*[8], names=columns_to_read, index_col=0)
+    return pd.read_fwf(infile, skiprows=skiprows, widths=ncols_to_read*[8], names=columns_to_read, index_col=0)
 
 
 def read_csv(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
     '''Read CE-QUAL-W2 time series (CSV format)'''
 
     try:
-        df = pandas.read_csv(infile, skiprows=skiprows, names=data_columns, index_col=0)
+        df = pd.read_csv(infile, skiprows=skiprows, names=data_columns, index_col=0)
     except:
         # Handle trailing comma, which adds an extra (empty) column
-        df = pandas.read_csv(infile, skiprows=skiprows, names=[*data_columns, 'JUNK'], index_col=0)
+        df = pd.read_csv(infile, skiprows=skiprows, names=[*data_columns, 'JUNK'], index_col=0)
         df = df.drop(axis=1, labels='JUNK')
     return df
 
@@ -162,7 +163,7 @@ def read_met(infile: str, year: int, data_columns: list[str] = None, skiprows: i
     return read(infile, year, data_columns, skiprows=skiprows)
 
 
-def get_colors(df: pandas.DataFrame, palette: str, min_colors=6):
+def get_colors(df: pd.DataFrame, palette: str, min_colors=6):
     '''Get list of colors from the specified Seaborn color palette'''
 
     colors = sns.color_palette(palette, min(min_colors, len(df.columns)))
@@ -218,3 +219,55 @@ def multiplot(df, title: str = None, legend_list: list[str] = None, xlabel: str 
         axes.legend(legend_list)
 
     fig.tight_layout()  # This resolves a lot of layout issues
+
+
+def write_hdf(df: pd.DataFrame, group: str, outfile: str, overwrite=True):
+    '''
+    Write CE-QUAL-W2 timeseries dataframe to HDF5
+
+    The index column must be a datetime array. This columns will be written to HDF5 as a string array. 
+    Each data column will be written using its data type.
+    '''
+
+    with h5py.File(outfile, 'a') as f:
+        index = df.index.astype('str')
+        string_dt = h5py.special_dtype(vlen=str)
+        date_path = group + '/' + df.index.name
+        if overwrite and (date_path in f):
+            del f[date_path]
+        f.create_dataset(date_path, data=index, dtype=string_dt)
+
+        for col in df.columns:
+            ts_path = group + '/' + col
+            if overwrite and (ts_path in f):
+                del f[ts_path]
+            f.create_dataset(ts_path, data=df[col])
+
+
+def read_hdf(group: str, infile: str, variables: list[str]):
+    '''
+    Read CE-QUAL-W2 timeseries dataframe to HDF5
+
+    This function assumes that a string-based datetime array named Date is present. This will be read and 
+    assiened as the index column of the output pandas dataframe will be a datetime array. 
+    '''
+
+    with h5py.File(infile, 'r') as f:
+        # Read dates
+        date_path = group + '/' + 'Date'
+        dates_str = f.get(date_path)
+
+        # Read time series data
+        ts = {}
+        for v in variables:
+            ts_path = group + '/' + v
+            ts[v] = f.get(ts_path)
+
+        dates = []
+        for dstr in dates_str:
+            dstr = dstr.decode('utf-8')
+            d = pd.to_datetime(dstr)
+            dates.append(d)
+        
+        df = pd.DataFrame(ts, index=dates)
+        return df
