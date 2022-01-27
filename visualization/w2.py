@@ -1,4 +1,5 @@
-import pandas as pd
+# %%
+# import pandas as pd
 from matplotlib import pyplot as plt
 import datetime
 import seaborn as sns
@@ -7,6 +8,7 @@ import warnings
 from enum import Enum
 warnings.filterwarnings("ignore")
 
+# %%
 plt.style.use('seaborn')
 plt.rcParams['figure.figsize'] = (15, 9)
 plt.rcParams['grid.color'] = '#E0E0E0'
@@ -18,6 +20,7 @@ plt.rcParams['xtick.color'] = 'black'
 plt.rcParams['ytick.color'] = 'black'
 plt.rcParams['figure.subplot.hspace'] = 0.05  # Shrink the horizontal space
 
+# %%
 # Custom curve colors
 # Using mountain and lake names for new color palettes
 rainbow = ['#3366CC', '#0099C6', '#109618', '#FCE030', '#FF9900', '#DC3912']  # (blue, teal, green, yellow, orange, red)
@@ -35,6 +38,7 @@ k2 = (
 )
 
 
+# %%
 # Define string formatting constants, which work in string format statements
 DEG_C_ALT = u'\N{DEGREE SIGN}C'
 
@@ -48,6 +52,7 @@ class FileType(Enum):
     csv = 2
 
 
+# %%
 def round_time(dt: datetime.datetime = None, roundTo=60):
     '''
     Round a datetime object to any time in seconds
