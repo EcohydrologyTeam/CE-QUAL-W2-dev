@@ -6,6 +6,7 @@ import h5py
 import warnings
 from enum import Enum
 import yaml
+import os
 warnings.filterwarnings("ignore")
 
 plt.style.use('seaborn')
@@ -100,7 +101,7 @@ def dataframe_to_date_format(year: int, data_frame: pd.DataFrame):
     return data_frame
 
 
-def read_npt(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
+def read_npt_opt(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
     '''Read CE-QUAL-W2 time series (fixed-width format, *.npt files)'''
 
     ncols_to_read = len(data_columns) + 1  # number of columns to read, including the date/day column
@@ -122,23 +123,23 @@ def read_csv(infile: str, year: int, data_columns: list[str], skiprows: int = 3)
 
 def read(infile: str, year: int, data_columns: list[str], skiprows: int = 3, file_type: FileType = None):
     '''
-    Read CE-QUAL-W2 time series data (npt and csv formats) and convert the Day of Year (Julian Day) to date-time format
+    Read CE-QUAL-W2 time series data (npt/opt and csv formats) and convert the Day of Year (Julian Day) to date-time format
 
-    This function automatically detects the file type, if the file is named with *.npt or *.csv extensions. 
+    This function automatically detects the file type, if the file is named with *.npt, *.opt, or *.csv extensions. 
     '''
 
     # If not defined, set the file type using the input filename
     if not file_type:
         if infile.lower().endswith('.csv'):
             file_type = FileType.csv
-        elif infile.lower().endswith('.npt'):
+        elif infile.lower().endswith('.npt') or infile.lower().endswith('.opt'):
             file_type = FileType.fixed_width
         else:
             raise Exception('The file type was not specified, and it could not be determined from the filename.')
 
     # Read the data
     if file_type == FileType.fixed_width:
-        df = read_npt(infile, year, data_columns, skiprows=skiprows)
+        df = read_npt_opt(infile, year, data_columns, skiprows=skiprows)
     elif file_type == FileType.csv:
         df = read_csv(infile, year, data_columns, skiprows=skiprows)
     else:
@@ -294,3 +295,40 @@ def write_plot_control(control_df: pd.DataFrame, yaml_outfile: str, index_name: 
     text = text.replace('-   ', '')
     with open(yaml_outfile, 'w') as f:
         f.write(text)
+
+
+def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype='png'):
+    '''Plot all files in a model using the plot configuration file (YAML format)'''
+    # Read the plot control file
+    control_df = read_plot_control(plot_control_yaml)
+
+    # Iterate over the data frame, plot each file, and save 
+    # an image file next to each data file in the model
+    for row in control_df.iterrows():
+        # Get the plotting parameters
+        params = row[1]
+        filename = params['Filename']
+        columns = params['Columns']
+        ylabels = params['Labels']
+        plot_type = params['PlotType']
+
+        # Open and read file
+        inpath = os.path.join(model_path, filename)
+        df = read(inpath, year, columns)
+
+        # Plot the data
+        if plot_type == 'single':
+            myplot = plot(df, ylabel=ylabels[0])
+        elif plot_type == 'multi':
+            myplot = multiplot(df, ylabels=ylabels)
+        else:
+            print('Plot type not specified')
+
+        # Save the figure
+        if isinstance(filetype, list):
+            for ft in filetype:
+                outpath = f'{inpath}.{ft}'
+                myplot.get_figure().savefig(outpath)
+        if isinstance(filetype, str):
+            outpath = f'{inpath}.{filetype}'
+            myplot.get_figure().savefig(outpath)
