@@ -5,6 +5,7 @@ import seaborn as sns
 import h5py
 import warnings
 from enum import Enum
+import yaml
 warnings.filterwarnings("ignore")
 
 plt.style.use('seaborn')
@@ -21,17 +22,18 @@ plt.rcParams['figure.subplot.hspace'] = 0.05  # Shrink the horizontal space
 # Custom curve colors
 # Using mountain and lake names for new color palettes
 rainbow = ['#3366CC', '#0099C6', '#109618', '#FCE030', '#FF9900', '#DC3912']  # (blue, teal, green, yellow, orange, red)
-everest = ['#3366CC', '#DC4020', '#10AA18', '#0099C6', '#FCE030', '#FF9900', ]  # (blue, red, green, teal, yellow, orange)
+everest = ['#3366CC', '#DC4020', '#10AA18', '#0099C6', '#FCE030',
+           '#FF9900', ]  # (blue, red, green, teal, yellow, orange)
 
 k2 = (
-    sns.color_palette('husl', desat=0.8)[4], # blue
-    sns.color_palette('tab10')[3], # red
-    sns.color_palette('deep')[2], # green
-    sns.color_palette('tab10', desat=0.8)[1], # purple
-    sns.color_palette('deep', desat=0.8)[4], # purple
-    sns.color_palette('colorblind')[2], # sea green
-    sns.color_palette('colorblind')[0], # deep blue
-    sns.color_palette('husl')[0], # light red
+    sns.color_palette('husl', desat=0.8)[4],  # blue
+    sns.color_palette('tab10')[3],  # red
+    sns.color_palette('deep')[2],  # green
+    sns.color_palette('tab10', desat=0.8)[1],  # purple
+    sns.color_palette('deep', desat=0.8)[4],  # purple
+    sns.color_palette('colorblind')[2],  # sea green
+    sns.color_palette('colorblind')[0],  # deep blue
+    sns.color_palette('husl')[0],  # light red
 )
 
 
@@ -270,6 +272,25 @@ def read_hdf(group: str, infile: str, variables: list[str]):
             dstr = dstr.decode('utf-8')
             d = pd.to_datetime(dstr)
             dates.append(d)
-        
+
         df = pd.DataFrame(ts, index=dates)
         return df
+
+
+def read_plot_control(yaml_infile: str, index_name: str = 'item'):
+    '''Read CE-QUAL-W2 plot control file (YAML format)'''
+    with open(yaml_infile) as yaml_file:
+        yaml_contents = yaml.load(yaml_file, Loader=yaml.SafeLoader)
+        control_df = pd.json_normalize(yaml_contents)
+        control_df.set_index(control_df[index_name], inplace=True)
+        control_df.drop(columns=[index_name], inplace=True)
+    return control_df
+
+
+def write_plot_control(control_df: pd.DataFrame, yaml_outfile: str, index_name: str = 'item'):
+    '''Write CE-QUAL-W2 plot control file (YAML format)'''
+    text = yaml.dump(control_df.reset_index().to_dict(orient='records'),
+                     sort_keys=False, width=200, indent=4, default_flow_style=None)
+    text = text.replace('-   ', '')
+    with open(yaml_outfile, 'w') as f:
+        f.write(text)
