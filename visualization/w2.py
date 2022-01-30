@@ -7,6 +7,7 @@ import warnings
 from enum import Enum
 import yaml
 import os
+import glob
 warnings.filterwarnings("ignore")
 
 plt.style.use('seaborn')
@@ -306,7 +307,7 @@ def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype=
     # Read the plot control file
     control_df = read_plot_control(plot_control_yaml)
 
-    # Iterate over the data frame, plot each file, and save 
+    # Iterate over the data frame, plot each file, and save
     # an image file next to each data file in the model
     for row in control_df.iterrows():
         # Get the plotting parameters
@@ -338,3 +339,27 @@ def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype=
         if isinstance(filetype, str):
             outpath = f'{inpath}.{filetype}'
             myplot.get_figure().savefig(outpath)
+
+
+def generate_plots_report(model_path: str, outfile: str, file_type: str = 'png'):
+    '''
+    Generate a report of all the plots in the specified model_path
+
+    If outfile is not an absolute path, the file will be written to the
+    model folder.
+    '''
+    search_str = '*.' + file_type
+    files = glob.glob(os.path.join(model_path, '*.png'))
+    if not os.path.abspath(outfile):
+        outfile = os.path.join(model_path, outfile)
+    with open(outfile, 'w') as f:
+        f.write('# Summary of Model Plots\n\n')
+        for i, impath in enumerate(files):
+            imfile = os.path.split(impath)[-1]
+            modelfile = os.path.splitext(imfile)[0]
+            # f.write('||\n')
+            # f.write('|:-|\n')
+            # f.write(f'| ![]({impath}) |\n')
+            # f.write(f'| Figure {i + 1}. Model file {modelfile} |\n\n')
+            f.write(f'![]({impath})\n')
+            f.write(f'Figure {i + 1}. Model file {modelfile}\n\n\n')
