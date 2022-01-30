@@ -78,7 +78,11 @@ def day_of_year_to_datetime(year: int, day_of_year_list: list):
     datetimes = []
     for d in day_of_year_list:
         # Compute the difference, subtracting 1 from the day_of_year
-        dx = day1 + datetime.timedelta(days=(d-1))
+        try:
+            d = float(d)
+            dx = day1 + datetime.timedelta(days=(d-1))
+        except TypeError:
+            print(f'Type Error! d = {d}, type(d) = {type(d)}')
         # Round the time
         dx = round_time(dt=dx, roundTo=60*60)
         datetimes.append(dx)
@@ -314,6 +318,7 @@ def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype=
 
         # Open and read file
         inpath = os.path.join(model_path, filename)
+        print(f'Reading {inpath}')
         df = read(inpath, year, columns)
 
         # Plot the data
