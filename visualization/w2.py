@@ -301,7 +301,7 @@ def write_plot_control(control_df: pd.DataFrame, yaml_outfile: str, index_name: 
         f.write(text)
 
 
-def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype='png'):
+def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype='png', VERBOSE=False):
     '''Plot all files in a model using the plot configuration file (YAML format)'''
     # Read the plot control file
     control_df = read_plot_control(plot_control_yaml)
@@ -318,7 +318,8 @@ def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype=
 
         # Open and read file
         inpath = os.path.join(model_path, filename)
-        print(f'Reading {inpath}')
+        if VERBOSE:
+            print(f'Reading {inpath}')
         df = read(inpath, year, columns)
 
         # Plot the data
@@ -327,7 +328,7 @@ def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype=
         elif plot_type == 'multi':
             myplot = multiplot(df, ylabels=ylabels)
         else:
-            print('Plot type not specified')
+            print(f'Plot type not specified for {filename}')
 
         # Save the figure
         if isinstance(filetype, list):
