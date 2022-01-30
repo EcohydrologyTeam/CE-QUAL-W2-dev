@@ -341,25 +341,52 @@ def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype=
             myplot.get_figure().savefig(outpath)
 
 
-def generate_plots_report(model_path: str, outfile: str, file_type: str = 'png'):
+def generate_plots_report(control_df: pd.DataFrame, model_path: str, outfile: str, title: str = None, subtitle: str = None, file_type: str = 'png', yaml: str = None, pdf_report = False):
     '''
-    Generate a report of all the plots in the specified model_path
+    Generate a report of all the plots in the specified plot control dataframe
 
     If outfile is not an absolute path, the file will be written to the
     model folder.
+
+    This function uses the "item" key for the plot captions. The form of the 
+    key in the plot control YAML file should be the inflow/outflow variable name
+    and the location, separated by an underscore, e.g., QIN_BR1 and TTR_TR5.
+    An exception to the is the QGT file, which doesn't have separate location
+    indicators (WB, TR, or BR).
     '''
-    search_str = '*.' + file_type
-    files = glob.glob(os.path.join(model_path, '*.png'))
+    files = control_df['Filename']
+    keys = control_df.index
+
     if not os.path.abspath(outfile):
         outfile = os.path.join(model_path, outfile)
+
     with open(outfile, 'w') as f:
-        f.write('# Summary of Model Plots\n\n')
-        for i, impath in enumerate(files):
-            imfile = os.path.split(impath)[-1]
-            modelfile = os.path.splitext(imfile)[0]
-            # f.write('||\n')
-            # f.write('|:-|\n')
-            # f.write(f'| ![]({impath}) |\n')
-            # f.write(f'| Figure {i + 1}. Model file {modelfile} |\n\n')
-            f.write(f'![]({impath})\n')
-            f.write(f'Figure {i + 1}. Model file {modelfile}\n\n\n')
+        if yaml:
+            f.write(yaml + '\n')
+        if title:
+            f.write(f'# {title}\n\n')
+        else:
+            f.write('# Summary of Model Plots\n\n')
+        if subtitle:
+            f.write(f'## {subtitle}\n\n')
+
+        for i, (key, model_file) in enumerate(zip(control_df.index, control_df['Filename'])):
+            # Full path to the CE-QUAL-W2 ASCII input/output file
+            ascii_path = os.path.join(model_path, model_file)
+            # Full path to the image file
+            image_path = f'{ascii_path}.{file_type}'
+            # Create the figure caption
+            if '_' in key:
+                variable, location = key.split('_')
+                caption = f'Figure {i + 1}. Time series of {variable}, {location}, in file {model_file}'
+            else:
+                caption = f'Figure {i + 1}. Time series of {key}, in file {model_file}'
+            # Write the image within a table
+            f.write(f'| ![]({image_path}) |\n')
+            f.write('|:-:|\n')
+            f.write(f'| {caption} |\n\n\n')
+
+    basefile = os.path.splitext(outfile)[0]
+
+    if pdf_report:
+        os.system(f'pandoc {basefile}.md -o {basefile}.pdf --from markdown --template todd.latex --top-level-division="chapter"')
