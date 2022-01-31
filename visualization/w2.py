@@ -119,12 +119,17 @@ def read_npt_opt(infile: str, year: int, data_columns: list[str], skiprows: int 
         for i in range(skiprows + 1):
             line = f.readline()
         if ',' in line:
-            return read_csv(infile, year, data_columns, skiprows)
+            return read_csv(infile, year, data_columns=data_columns, skiprows=skiprows)
 
     # Parse the fixed-width file
     ncols_to_read = len(data_columns) + 1  # number of columns to read, including the date/day column
     columns_to_read = ['DoY', *data_columns]
-    return pd.read_fwf(infile, skiprows=skiprows, widths=ncols_to_read*[8], names=columns_to_read, index_col=0)
+    try:
+        df = pd.read_fwf(infile, skiprows=skiprows, widths=ncols_to_read*[8], names=columns_to_read, index_col=0)
+    except:
+        print('Error reading ' + infile)
+        raise
+    return df
 
 
 def read_csv(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
@@ -132,10 +137,19 @@ def read_csv(infile: str, year: int, data_columns: list[str], skiprows: int = 3)
 
     try:
         df = pd.read_csv(infile, skiprows=skiprows, names=data_columns, index_col=0)
-    except:
+    except IndexError:
         # Handle trailing comma, which adds an extra (empty) column
-        df = pd.read_csv(infile, skiprows=skiprows, names=[*data_columns, 'JUNK'], index_col=0)
-        df = df.drop(axis=1, labels='JUNK')
+        try:
+            df = pd.read_csv(infile, skiprows=skiprows, names=[*data_columns, 'JUNK'], index_col=0)
+            df = df.drop(axis=1, labels='JUNK')
+        except IndexError:
+            print('Error reading ' + infile)
+            print('Trying again with an additional column')
+            df = pd.read_csv(infile, skiprows=skiprows, names=[*data_columns, 'JUNK1', 'JUNK2'], index_col=0)
+            df = df.drop(axis=1, labels=['JUNK1', 'JUNK2'])
+    except:
+        print('Error reading ' + infile)
+        raise
     return df
 
 
