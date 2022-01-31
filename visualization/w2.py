@@ -107,8 +107,21 @@ def dataframe_to_date_format(year: int, data_frame: pd.DataFrame):
 
 
 def read_npt_opt(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
-    '''Read CE-QUAL-W2 time series (fixed-width format, *.npt files)'''
+    '''
+    Read CE-QUAL-W2 time series (fixed-width format, *.npt files)
+    '''
 
+    # This function cannot trust that the file is actually in fixed-width format.
+    # Check if the first line after the header contains commas.
+    # If it is a CSV file, then call read_csv() instead.
+    # TODO: Add support for tabs and other delimiters. (LOW PRIORITY)
+    with open(infile, 'r') as f:
+        for i in range(skiprows + 1):
+            line = f.readline()
+        if ',' in line:
+            return read_csv(infile, year, data_columns, skiprows)
+
+    # Parse the fixed-width file
     ncols_to_read = len(data_columns) + 1  # number of columns to read, including the date/day column
     columns_to_read = ['DoY', *data_columns]
     return pd.read_fwf(infile, skiprows=skiprows, widths=ncols_to_read*[8], names=columns_to_read, index_col=0)
