@@ -8,6 +8,7 @@ from enum import Enum
 import yaml
 import os
 import glob
+import sqlite3
 warnings.filterwarnings("ignore")
 
 plt.style.use('seaborn')
@@ -417,3 +418,13 @@ def generate_plots_report(control_df: pd.DataFrame, model_path: str, outfile: st
 
     if pdf_report:
         os.system(f'pandoc {basefile}.md -o {basefile}.pdf --from markdown --template todd.latex --top-level-division="chapter"')
+
+
+def sql_query(database_name: str, query: str):
+    '''Read time series data from a SQLite database using an SQL query'''
+    with sqlite3.connect('w2_data.db') as db:
+        df = pd.read_sql(query, db)
+        df.index = df['Date']
+        df.index = pd.to_datetime(df.index)
+        df.drop(columns=['Date'], inplace=True)
+        return df
