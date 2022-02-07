@@ -428,3 +428,11 @@ def sql_query(database_name: str, query: str):
         df.index = pd.to_datetime(df.index)
         df.drop(columns=['Date'], inplace=True)
         return df
+
+
+def read_sql(database: str, table: str, index_is_datetime = True):
+    connection = sqlite3.connect(database)
+    df = pd.read_sql_query(f'select * from {table}', connection)
+    connection.close()
+    df.index = pd.to_datetime(df.index)
+    return df
