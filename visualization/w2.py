@@ -325,7 +325,6 @@ def write_plot_control(control_df: pd.DataFrame, yaml_outfile: str, index_name: 
     '''Write CE-QUAL-W2 plot control file (YAML format)'''
     text = yaml.dump(control_df.reset_index().to_dict(orient='records'),
                      sort_keys=False, width=200, indent=4, default_flow_style=None)
-    text = text.replace('-   ', '')
     with open(yaml_outfile, 'w') as f:
         f.write(text)
 
