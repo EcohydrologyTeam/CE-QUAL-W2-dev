@@ -1,0 +1,11 @@
+ Fish habitat analysis: CE-QUAL-W2 model results
+ FOR BRANCH:           5
+ Species, Temperature minimum, Temperature maximum, Dissolved oxygen minimum
+Tilapia,                   20.00,   29.00,    5.00
+ 
+JDAY,%VOL-Tilapia,HAB-VOL(m3)-Tilapia,
+  4384.002,  100.00,  0.4803E+08,
+  4385.000,  100.00,  0.4803E+08,
+  4386.000,   30.95,  0.1486E+08,
+  4387.000,   17.54,  0.8424E+07,
+  4388.000,   23.38,  0.1123E+08,

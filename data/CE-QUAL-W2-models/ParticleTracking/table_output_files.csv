@@ -1,0 +1,663 @@
+"Name","Segment","Parameter","Units","Data_Column","Filename","Output_Timestep"
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DLT","s","1/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","ELWS","m","2/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","T2","Celsius","3/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","U","m/s","4/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Q","m^3/s","5/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","SRON","W/m^2","6/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","EXT","1/m","7/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Depth","m","8/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","WIDTH","m","9/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","SHADE","","10/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Tvolavg","W/m^2","11/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","NetRad","W/m^2","12/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","SWSolar","W/m^2","13/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","LWRad","W/m^2","14/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","BackRad","W/m^2","15/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","EvapF","W/m^2","16/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","ConducF","W/m^2","17/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","TDS","g/m^3","18/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Gen1","days","19/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Gen2","g/m^3","20/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Gen3","g/m^3","21/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Gen4","g/m^3","22/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Gen5","g/m^3","23/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","ISS2","g/m^3","24/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","PO4","g/m^3","25/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","NH4","g/m^3","26/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","NO3","g/m^3","27/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","LDOM","g/m^3","28/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","RDOM","g/m^3","29/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","LPOM","g/m^3","30/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","RPOM","g/m^3","31/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","ALG1","g/m^3","32/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DO","g/m^3","33/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","TIC","g/m^3","34/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","ALK","g/m^3","35/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","LDOM-P","g/m^3","36/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","RDOM-P","g/m^3","37/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","LPOM-P","g/m^3","38/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","RPOM-P","g/m^3","39/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","LDOM-N","g/m^3","40/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","RDOM-N","g/m^3","41/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","LPOM-N","g/m^3","42/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","RPOM-N","g/m^3","43/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","EPI1","g/m^3","44/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","SED","g/m^3","45/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","SEDP","g/m^3","46/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","SEDN","g/m^3","47/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","SEDC","g/m^3","48/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Dissolved organic carbon","g/m^3","49/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Total organic carbon","g/m^3","50/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Total Kheldahl Nitrogen","g/m^3","51/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Total nitrogen","g/m^3","52/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Total phosphorus","g/m^3","53/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Algal production","g/m^2/day","54/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Chlorophyll a","ug/m^3","55/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","Oxygen % Gas Saturation","","56/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","pH","","57/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","CO2","","58/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","HCO3","","59/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","CO3","","60/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DOAP","kg/d","61/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DOEP","kg/d","62/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DOPOM","kg/d","63/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DODOM","kg/d","64/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DOOM","kg/d","65/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DONITR","kg/d","66/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DOREAR","kg/d","67/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DOSED","kg/d","68/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","DOSOD","kg/d","69/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","TICAG","kg/d","70/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 1 Segment 64 Depth 0.00 m","64","CO2GASX","kg/d","71/71","tsr_1_seg64.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DLT","s","1/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","ELWS","m","2/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","T2","Celsius","3/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","U","m/s","4/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Q","m^3/s","5/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","SRON","W/m^2","6/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","EXT","1/m","7/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Depth","m","8/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","WIDTH","m","9/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","SHADE","","10/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Tvolavg","W/m^2","11/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","NetRad","W/m^2","12/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","SWSolar","W/m^2","13/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","LWRad","W/m^2","14/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","BackRad","W/m^2","15/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","EvapF","W/m^2","16/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","ConducF","W/m^2","17/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","TDS","g/m^3","18/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Gen1","days","19/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Gen2","g/m^3","20/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Gen3","g/m^3","21/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Gen4","g/m^3","22/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Gen5","g/m^3","23/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","ISS2","g/m^3","24/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","PO4","g/m^3","25/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","NH4","g/m^3","26/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","NO3","g/m^3","27/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","LDOM","g/m^3","28/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","RDOM","g/m^3","29/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","LPOM","g/m^3","30/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","RPOM","g/m^3","31/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","ALG1","g/m^3","32/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DO","g/m^3","33/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","TIC","g/m^3","34/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","ALK","g/m^3","35/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","LDOM-P","g/m^3","36/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","RDOM-P","g/m^3","37/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","LPOM-P","g/m^3","38/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","RPOM-P","g/m^3","39/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","LDOM-N","g/m^3","40/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","RDOM-N","g/m^3","41/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","LPOM-N","g/m^3","42/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","RPOM-N","g/m^3","43/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","EPI1","g/m^3","44/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","SED","g/m^3","45/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","SEDP","g/m^3","46/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","SEDN","g/m^3","47/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","SEDC","g/m^3","48/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Dissolved organic carbon","g/m^3","49/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Total organic carbon","g/m^3","50/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Total Kheldahl Nitrogen","g/m^3","51/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Total nitrogen","g/m^3","52/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Total phosphorus","g/m^3","53/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Algal production","g/m^2/day","54/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Chlorophyll a","ug/m^3","55/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","Oxygen % Gas Saturation","","56/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","pH","","57/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","CO2","","58/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","HCO3","","59/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","CO3","","60/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DOAP","kg/d","61/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DOEP","kg/d","62/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DOPOM","kg/d","63/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DODOM","kg/d","64/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DOOM","kg/d","65/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DONITR","kg/d","66/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DOREAR","kg/d","67/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DOSED","kg/d","68/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","DOSOD","kg/d","69/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","TICAG","kg/d","70/71","tsr_2_seg84.opt",    1.000000
+"Time Series File 2 Segment 84 Depth 0.00 m","84","CO2GASX","kg/d","71/71","tsr_2_seg84.opt",    1.000000
+"Segment 64 Withdrawal flow","64","QWD","m^3/s","1/1","qwo_64.opt",    0.100000
+"Segment 64 Withdrawal Temperature","64","T","Celsius","1/1","two_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","TDS","g/m^3","1/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","Gen1","days","2/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","Gen2","g/m^3","3/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","Gen3","g/m^3","4/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","Gen4","g/m^3","5/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","Gen5","g/m^3","6/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","ISS2","g/m^3","7/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","PO4","g/m^3","8/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","NH4","g/m^3","9/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","NO3","g/m^3","10/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","LDOM","g/m^3","11/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","RDOM","g/m^3","12/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","LPOM","g/m^3","13/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","RPOM","g/m^3","14/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","ALG1","g/m^3","15/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","DO","g/m^3","16/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","TIC","g/m^3","17/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","ALK","g/m^3","18/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","LDOM-P","g/m^3","19/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","RDOM-P","g/m^3","20/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","LPOM-P","g/m^3","21/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","RPOM-P","g/m^3","22/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","LDOM-N","g/m^3","23/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","RDOM-N","g/m^3","24/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","LPOM-N","g/m^3","25/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal constituent","64","RPOM-N","g/m^3","26/26","cwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","Dissolved organic carbon","g/m^3","1/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","Total organic carbon","g/m^3","2/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","Total nitrogen","g/m^3","4/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","Total phosphorus","g/m^3","5/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","Algal production","g/m^2/day","6/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","Chlorophyll a","ug/m^3","7/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","Oxygen % Gas Saturation","","8/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","pH","","9/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","CO2","","10/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","HCO3","","11/12","dwo_64.opt",    0.100000
+"Segment 64 Withdrawal Derived Constituent","64","CO3","","12/12","dwo_64.opt",    0.100000
+"Segment 84 Withdrawal flow","84","QWD","m^3/s","1/1","qwo_84.opt",    0.100000
+"Segment 84 Withdrawal Temperature","84","T","Celsius","1/1","two_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","TDS","g/m^3","1/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","Gen1","days","2/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","Gen2","g/m^3","3/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","Gen3","g/m^3","4/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","Gen4","g/m^3","5/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","Gen5","g/m^3","6/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","ISS2","g/m^3","7/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","PO4","g/m^3","8/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","NH4","g/m^3","9/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","NO3","g/m^3","10/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","LDOM","g/m^3","11/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","RDOM","g/m^3","12/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","LPOM","g/m^3","13/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","RPOM","g/m^3","14/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","ALG1","g/m^3","15/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","DO","g/m^3","16/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","TIC","g/m^3","17/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","ALK","g/m^3","18/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","LDOM-P","g/m^3","19/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","RDOM-P","g/m^3","20/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","LPOM-P","g/m^3","21/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","RPOM-P","g/m^3","22/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","LDOM-N","g/m^3","23/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","RDOM-N","g/m^3","24/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","LPOM-N","g/m^3","25/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal constituent","84","RPOM-N","g/m^3","26/26","cwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","Dissolved organic carbon","g/m^3","1/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","Total organic carbon","g/m^3","2/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","Total nitrogen","g/m^3","4/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","Total phosphorus","g/m^3","5/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","Algal production","g/m^2/day","6/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","Chlorophyll a","ug/m^3","7/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","Oxygen % Gas Saturation","","8/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","pH","","9/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","CO2","","10/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","HCO3","","11/12","dwo_84.opt",    0.100000
+"Segment 84 Withdrawal Derived Constituent","84","CO3","","12/12","dwo_84.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 flow","64","QWD","m^3/s","1/1","qwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 temperature","64","T","Celsius","1/1","two_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TDS","g/m^3","1/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen1","days","2/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen2","g/m^3","3/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen3","g/m^3","4/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen4","g/m^3","5/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen5","g/m^3","6/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ISS2","g/m^3","7/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","PO4","g/m^3","8/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NH4","g/m^3","9/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NO3","g/m^3","10/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM","g/m^3","11/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM","g/m^3","12/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM","g/m^3","13/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM","g/m^3","14/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALG1","g/m^3","15/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","DO","g/m^3","16/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TIC","g/m^3","17/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALK","g/m^3","18/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-P","g/m^3","19/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-P","g/m^3","20/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-P","g/m^3","21/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-P","g/m^3","22/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-N","g/m^3","23/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-N","g/m^3","24/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-N","g/m^3","25/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-N","g/m^3","26/26","cwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Dissolved organic carbon","g/m^3","1/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total organic carbon","g/m^3","2/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total nitrogen","g/m^3","4/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total phosphorus","g/m^3","5/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Algal production","g/m^2/day","6/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Chlorophyll a","ug/m^3","7/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Oxygen % Gas Saturation","","8/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","pH","","9/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO2","","10/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","HCO3","","11/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO3","","12/12","dwo_str1_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 flow","64","QWD","m^3/s","1/1","qwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 temperature","64","T","Celsius","1/1","two_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TDS","g/m^3","1/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen1","days","2/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen2","g/m^3","3/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen3","g/m^3","4/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen4","g/m^3","5/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen5","g/m^3","6/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ISS2","g/m^3","7/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","PO4","g/m^3","8/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NH4","g/m^3","9/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NO3","g/m^3","10/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM","g/m^3","11/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM","g/m^3","12/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM","g/m^3","13/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM","g/m^3","14/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALG1","g/m^3","15/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","DO","g/m^3","16/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TIC","g/m^3","17/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALK","g/m^3","18/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-P","g/m^3","19/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-P","g/m^3","20/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-P","g/m^3","21/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-P","g/m^3","22/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-N","g/m^3","23/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-N","g/m^3","24/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-N","g/m^3","25/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-N","g/m^3","26/26","cwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Dissolved organic carbon","g/m^3","1/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total organic carbon","g/m^3","2/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total nitrogen","g/m^3","4/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total phosphorus","g/m^3","5/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Algal production","g/m^2/day","6/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Chlorophyll a","ug/m^3","7/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Oxygen % Gas Saturation","","8/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","pH","","9/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO2","","10/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","HCO3","","11/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO3","","12/12","dwo_str2_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 flow","64","QWD","m^3/s","1/1","qwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 temperature","64","T","Celsius","1/1","two_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TDS","g/m^3","1/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen1","days","2/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen2","g/m^3","3/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen3","g/m^3","4/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen4","g/m^3","5/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen5","g/m^3","6/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ISS2","g/m^3","7/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","PO4","g/m^3","8/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NH4","g/m^3","9/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NO3","g/m^3","10/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM","g/m^3","11/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM","g/m^3","12/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM","g/m^3","13/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM","g/m^3","14/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALG1","g/m^3","15/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","DO","g/m^3","16/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TIC","g/m^3","17/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALK","g/m^3","18/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-P","g/m^3","19/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-P","g/m^3","20/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-P","g/m^3","21/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-P","g/m^3","22/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-N","g/m^3","23/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-N","g/m^3","24/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-N","g/m^3","25/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-N","g/m^3","26/26","cwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Dissolved organic carbon","g/m^3","1/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total organic carbon","g/m^3","2/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total nitrogen","g/m^3","4/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total phosphorus","g/m^3","5/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Algal production","g/m^2/day","6/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Chlorophyll a","ug/m^3","7/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Oxygen % Gas Saturation","","8/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","pH","","9/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO2","","10/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","HCO3","","11/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO3","","12/12","dwo_str3_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 flow","64","QWD","m^3/s","1/1","qwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 temperature","64","T","Celsius","1/1","two_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TDS","g/m^3","1/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen1","days","2/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen2","g/m^3","3/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen3","g/m^3","4/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen4","g/m^3","5/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen5","g/m^3","6/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ISS2","g/m^3","7/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","PO4","g/m^3","8/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NH4","g/m^3","9/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NO3","g/m^3","10/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM","g/m^3","11/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM","g/m^3","12/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM","g/m^3","13/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM","g/m^3","14/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALG1","g/m^3","15/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","DO","g/m^3","16/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TIC","g/m^3","17/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALK","g/m^3","18/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-P","g/m^3","19/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-P","g/m^3","20/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-P","g/m^3","21/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-P","g/m^3","22/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-N","g/m^3","23/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-N","g/m^3","24/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-N","g/m^3","25/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-N","g/m^3","26/26","cwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Dissolved organic carbon","g/m^3","1/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total organic carbon","g/m^3","2/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total nitrogen","g/m^3","4/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total phosphorus","g/m^3","5/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Algal production","g/m^2/day","6/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Chlorophyll a","ug/m^3","7/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Oxygen % Gas Saturation","","8/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","pH","","9/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO2","","10/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","HCO3","","11/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO3","","12/12","dwo_str4_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 flow","64","QWD","m^3/s","1/1","qwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 temperature","64","T","Celsius","1/1","two_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TDS","g/m^3","1/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen1","days","2/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen2","g/m^3","3/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen3","g/m^3","4/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen4","g/m^3","5/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","Gen5","g/m^3","6/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ISS2","g/m^3","7/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","PO4","g/m^3","8/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NH4","g/m^3","9/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","NO3","g/m^3","10/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM","g/m^3","11/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM","g/m^3","12/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM","g/m^3","13/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM","g/m^3","14/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALG1","g/m^3","15/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","DO","g/m^3","16/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","TIC","g/m^3","17/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","ALK","g/m^3","18/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-P","g/m^3","19/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-P","g/m^3","20/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-P","g/m^3","21/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-P","g/m^3","22/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LDOM-N","g/m^3","23/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RDOM-N","g/m^3","24/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","LPOM-N","g/m^3","25/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 constituents","64","RPOM-N","g/m^3","26/26","cwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Dissolved organic carbon","g/m^3","1/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total organic carbon","g/m^3","2/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total nitrogen","g/m^3","4/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Total phosphorus","g/m^3","5/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Algal production","g/m^2/day","6/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Chlorophyll a","ug/m^3","7/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","Oxygen % Gas Saturation","","8/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","pH","","9/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO2","","10/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","HCO3","","11/12","dwo_str5_seg64.opt",    0.100000
+"STRUCTURAL WITHDRAWAL AT SEGMENT 64 derived constituents","64","CO3","","12/12","dwo_str5_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 flow","64","QWD","m^3/s","1/1","qwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 temperature","64","T","Celsius","1/1","two_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","TDS","g/m^3","1/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","Gen1","days","2/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","Gen2","g/m^3","3/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","Gen3","g/m^3","4/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","Gen4","g/m^3","5/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","Gen5","g/m^3","6/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","ISS2","g/m^3","7/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","PO4","g/m^3","8/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","NH4","g/m^3","9/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","NO3","g/m^3","10/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","LDOM","g/m^3","11/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","RDOM","g/m^3","12/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","LPOM","g/m^3","13/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","RPOM","g/m^3","14/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","ALG1","g/m^3","15/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","DO","g/m^3","16/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","TIC","g/m^3","17/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","ALK","g/m^3","18/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","LDOM-P","g/m^3","19/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","RDOM-P","g/m^3","20/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","LPOM-P","g/m^3","21/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","RPOM-P","g/m^3","22/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","LDOM-N","g/m^3","23/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","RDOM-N","g/m^3","24/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","LPOM-N","g/m^3","25/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 constituents","64","RPOM-N","g/m^3","26/26","cwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","Dissolved organic carbon","g/m^3","1/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","Total organic carbon","g/m^3","2/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","Total nitrogen","g/m^3","4/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","Total phosphorus","g/m^3","5/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","Algal production","g/m^2/day","6/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","Chlorophyll a","ug/m^3","7/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","Oxygen % Gas Saturation","","8/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","pH","","9/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","CO2","","10/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","HCO3","","11/12","dwo_gate1_seg64.opt",    0.100000
+"GATE WITHDRAWAL AT SEG64 derived constituents","64","CO3","","12/12","dwo_gate1_seg64.opt",    0.100000
+"WITHDRAWAL AT SEG84 flow","84","QWD","m^3/s","1/1","qwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 temperature","84","T","Celsius","1/1","two_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TDS","g/m^3","1/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen1","days","2/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen2","g/m^3","3/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen3","g/m^3","4/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen4","g/m^3","5/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen5","g/m^3","6/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ISS2","g/m^3","7/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","PO4","g/m^3","8/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NH4","g/m^3","9/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NO3","g/m^3","10/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM","g/m^3","11/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM","g/m^3","12/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM","g/m^3","13/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM","g/m^3","14/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALG1","g/m^3","15/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","DO","g/m^3","16/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TIC","g/m^3","17/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALK","g/m^3","18/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-P","g/m^3","19/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-P","g/m^3","20/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-P","g/m^3","21/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-P","g/m^3","22/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-N","g/m^3","23/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-N","g/m^3","24/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-N","g/m^3","25/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-N","g/m^3","26/26","cwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Dissolved organic carbon","g/m^3","1/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total organic carbon","g/m^3","2/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total nitrogen","g/m^3","4/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total phosphorus","g/m^3","5/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Algal production","g/m^2/day","6/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Chlorophyll a","ug/m^3","7/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Oxygen % Gas Saturation","","8/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","pH","","9/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO2","","10/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","HCO3","","11/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO3","","12/12","dwo_wd1_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 flow","84","QWD","m^3/s","1/1","qwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 temperature","84","T","Celsius","1/1","two_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TDS","g/m^3","1/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen1","days","2/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen2","g/m^3","3/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen3","g/m^3","4/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen4","g/m^3","5/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen5","g/m^3","6/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ISS2","g/m^3","7/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","PO4","g/m^3","8/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NH4","g/m^3","9/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NO3","g/m^3","10/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM","g/m^3","11/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM","g/m^3","12/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM","g/m^3","13/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM","g/m^3","14/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALG1","g/m^3","15/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","DO","g/m^3","16/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TIC","g/m^3","17/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALK","g/m^3","18/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-P","g/m^3","19/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-P","g/m^3","20/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-P","g/m^3","21/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-P","g/m^3","22/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-N","g/m^3","23/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-N","g/m^3","24/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-N","g/m^3","25/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-N","g/m^3","26/26","cwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Dissolved organic carbon","g/m^3","1/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total organic carbon","g/m^3","2/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total nitrogen","g/m^3","4/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total phosphorus","g/m^3","5/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Algal production","g/m^2/day","6/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Chlorophyll a","ug/m^3","7/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Oxygen % Gas Saturation","","8/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","pH","","9/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO2","","10/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","HCO3","","11/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO3","","12/12","dwo_wd2_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 flow","84","QWD","m^3/s","1/1","qwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 temperature","84","T","Celsius","1/1","two_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TDS","g/m^3","1/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen1","days","2/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen2","g/m^3","3/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen3","g/m^3","4/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen4","g/m^3","5/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen5","g/m^3","6/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ISS2","g/m^3","7/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","PO4","g/m^3","8/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NH4","g/m^3","9/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NO3","g/m^3","10/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM","g/m^3","11/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM","g/m^3","12/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM","g/m^3","13/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM","g/m^3","14/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALG1","g/m^3","15/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","DO","g/m^3","16/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TIC","g/m^3","17/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALK","g/m^3","18/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-P","g/m^3","19/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-P","g/m^3","20/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-P","g/m^3","21/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-P","g/m^3","22/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-N","g/m^3","23/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-N","g/m^3","24/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-N","g/m^3","25/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-N","g/m^3","26/26","cwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Dissolved organic carbon","g/m^3","1/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total organic carbon","g/m^3","2/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total nitrogen","g/m^3","4/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total phosphorus","g/m^3","5/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Algal production","g/m^2/day","6/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Chlorophyll a","ug/m^3","7/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Oxygen % Gas Saturation","","8/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","pH","","9/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO2","","10/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","HCO3","","11/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO3","","12/12","dwo_wd3_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 flow","84","QWD","m^3/s","1/1","qwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 temperature","84","T","Celsius","1/1","two_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TDS","g/m^3","1/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen1","days","2/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen2","g/m^3","3/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen3","g/m^3","4/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen4","g/m^3","5/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen5","g/m^3","6/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ISS2","g/m^3","7/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","PO4","g/m^3","8/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NH4","g/m^3","9/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NO3","g/m^3","10/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM","g/m^3","11/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM","g/m^3","12/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM","g/m^3","13/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM","g/m^3","14/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALG1","g/m^3","15/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","DO","g/m^3","16/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TIC","g/m^3","17/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALK","g/m^3","18/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-P","g/m^3","19/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-P","g/m^3","20/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-P","g/m^3","21/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-P","g/m^3","22/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-N","g/m^3","23/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-N","g/m^3","24/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-N","g/m^3","25/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-N","g/m^3","26/26","cwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Dissolved organic carbon","g/m^3","1/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total organic carbon","g/m^3","2/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total nitrogen","g/m^3","4/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total phosphorus","g/m^3","5/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Algal production","g/m^2/day","6/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Chlorophyll a","ug/m^3","7/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Oxygen % Gas Saturation","","8/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","pH","","9/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO2","","10/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","HCO3","","11/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO3","","12/12","dwo_wd4_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 flow","84","QWD","m^3/s","1/1","qwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 temperature","84","T","Celsius","1/1","two_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TDS","g/m^3","1/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen1","days","2/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen2","g/m^3","3/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen3","g/m^3","4/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen4","g/m^3","5/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","Gen5","g/m^3","6/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ISS2","g/m^3","7/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","PO4","g/m^3","8/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NH4","g/m^3","9/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","NO3","g/m^3","10/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM","g/m^3","11/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM","g/m^3","12/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM","g/m^3","13/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM","g/m^3","14/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALG1","g/m^3","15/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","DO","g/m^3","16/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","TIC","g/m^3","17/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","ALK","g/m^3","18/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-P","g/m^3","19/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-P","g/m^3","20/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-P","g/m^3","21/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-P","g/m^3","22/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LDOM-N","g/m^3","23/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RDOM-N","g/m^3","24/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","LPOM-N","g/m^3","25/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 constituents","84","RPOM-N","g/m^3","26/26","cwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Dissolved organic carbon","g/m^3","1/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total organic carbon","g/m^3","2/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total Kheldahl Nitrogen","g/m^3","3/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total nitrogen","g/m^3","4/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Total phosphorus","g/m^3","5/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Algal production","g/m^2/day","6/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Chlorophyll a","ug/m^3","7/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","Oxygen % Gas Saturation","","8/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","pH","","9/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO2","","10/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","HCO3","","11/12","dwo_wd5_seg84.opt",    0.100000
+"WITHDRAWAL AT SEG84 derived constituents","84","CO3","","12/12","dwo_wd5_seg84.opt",    0.100000

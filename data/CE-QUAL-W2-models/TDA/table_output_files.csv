@@ -1,0 +1,271 @@
+"Name","Segment","Parameter","Units","Data_Column","Filename","Output_Timestep"
+"Time Series File 1 Segment 41 Depth 0.50 m","41","DLT","s","1/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","ELWS","m","2/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","T2","Celsius","3/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","U","m/s","4/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","Q","m^3/s","5/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","SRON","W/m^2","6/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","EXT","1/m","7/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","Depth","m","8/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","WIDTH","m","9/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","SHADE","","10/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","Tvolavg","W/m^2","11/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","NetRad","W/m^2","12/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","SWSolar","W/m^2","13/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","LWRad","W/m^2","14/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","BackRad","W/m^2","15/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","EvapF","W/m^2","16/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","ConducF","W/m^2","17/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","N2","g/m^3","18/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","DO","g/m^3","19/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 1 Segment 41 Depth 0.50 m","41","Oxygen % Gas Saturation","","20/20","TDA_tsr_1_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","DLT","s","1/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","ELWS","m","2/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","T2","Celsius","3/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","U","m/s","4/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","Q","m^3/s","5/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","SRON","W/m^2","6/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","EXT","1/m","7/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","Depth","m","8/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","WIDTH","m","9/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","SHADE","","10/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","Tvolavg","W/m^2","11/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","NetRad","W/m^2","12/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","SWSolar","W/m^2","13/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","LWRad","W/m^2","14/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","BackRad","W/m^2","15/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","EvapF","W/m^2","16/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","ConducF","W/m^2","17/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","N2","g/m^3","18/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","DO","g/m^3","19/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 2 Segment 41 Depth 3.00 m","41","Oxygen % Gas Saturation","","20/20","TDA_tsr_2_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","DLT","s","1/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","ELWS","m","2/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","T2","Celsius","3/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","U","m/s","4/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","Q","m^3/s","5/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","SRON","W/m^2","6/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","EXT","1/m","7/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","Depth","m","8/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","WIDTH","m","9/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","SHADE","","10/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","Tvolavg","W/m^2","11/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","NetRad","W/m^2","12/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","SWSolar","W/m^2","13/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","LWRad","W/m^2","14/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","BackRad","W/m^2","15/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","EvapF","W/m^2","16/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","ConducF","W/m^2","17/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","N2","g/m^3","18/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","DO","g/m^3","19/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 3 Segment 41 Depth 5.00 m","41","Oxygen % Gas Saturation","","20/20","TDA_tsr_3_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","DLT","s","1/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","ELWS","m","2/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","T2","Celsius","3/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","U","m/s","4/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","Q","m^3/s","5/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","SRON","W/m^2","6/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","EXT","1/m","7/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","Depth","m","8/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","WIDTH","m","9/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","SHADE","","10/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","Tvolavg","W/m^2","11/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","NetRad","W/m^2","12/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","SWSolar","W/m^2","13/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","LWRad","W/m^2","14/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","BackRad","W/m^2","15/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","EvapF","W/m^2","16/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","ConducF","W/m^2","17/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","N2","g/m^3","18/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","DO","g/m^3","19/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 4 Segment 41 Depth 10.00 m","41","Oxygen % Gas Saturation","","20/20","TDA_tsr_4_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","DLT","s","1/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","ELWS","m","2/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","T2","Celsius","3/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","U","m/s","4/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","Q","m^3/s","5/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","SRON","W/m^2","6/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","EXT","1/m","7/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","Depth","m","8/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","WIDTH","m","9/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","SHADE","","10/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","Tvolavg","W/m^2","11/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","NetRad","W/m^2","12/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","SWSolar","W/m^2","13/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","LWRad","W/m^2","14/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","BackRad","W/m^2","15/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","EvapF","W/m^2","16/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","ConducF","W/m^2","17/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","N2","g/m^3","18/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","DO","g/m^3","19/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 5 Segment 41 Depth 15.00 m","41","Oxygen % Gas Saturation","","20/20","TDA_tsr_5_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","DLT","s","1/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","ELWS","m","2/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","T2","Celsius","3/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","U","m/s","4/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","Q","m^3/s","5/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","SRON","W/m^2","6/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","EXT","1/m","7/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","Depth","m","8/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","WIDTH","m","9/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","SHADE","","10/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","Tvolavg","W/m^2","11/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","NetRad","W/m^2","12/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","SWSolar","W/m^2","13/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","LWRad","W/m^2","14/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","BackRad","W/m^2","15/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","EvapF","W/m^2","16/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","ConducF","W/m^2","17/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","N2","g/m^3","18/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","DO","g/m^3","19/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 6 Segment 41 Depth 20.00 m","41","Oxygen % Gas Saturation","","20/20","TDA_tsr_6_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","DLT","s","1/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","ELWS","m","2/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","T2","Celsius","3/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","U","m/s","4/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","Q","m^3/s","5/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","SRON","W/m^2","6/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","EXT","1/m","7/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","Depth","m","8/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","WIDTH","m","9/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","SHADE","","10/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","Tvolavg","W/m^2","11/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","NetRad","W/m^2","12/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","SWSolar","W/m^2","13/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","LWRad","W/m^2","14/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","BackRad","W/m^2","15/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","EvapF","W/m^2","16/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","ConducF","W/m^2","17/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","N2","g/m^3","18/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","DO","g/m^3","19/20","TDA_tsr_7_seg41.opt",    0.041667
+"Time Series File 7 Segment 41 Depth 30.00 m","41","Oxygen % Gas Saturation","","20/20","TDA_tsr_7_seg41.opt",    0.041667
+"Segment 41 Withdrawal flow","41","QWD","m^3/s","1/1","qwo_41.opt",    0.041667
+"Segment 41 Withdrawal Temperature","41","T","Celsius","1/1","two_41.opt",    0.041667
+"Segment 41 Withdrawal constituent","41","N2","g/m^3","1/2","cwo_41.opt",    0.041667
+"Segment 41 Withdrawal constituent","41","DO","g/m^3","2/2","cwo_41.opt",    0.041667
+"Segment 41 Withdrawal Derived Constituent","41","Oxygen % Gas Saturation","","1/1","dwo_41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate1_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate1_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate1_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate1_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate1_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate2_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate2_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate2_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate2_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate2_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate3_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate3_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate3_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate3_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate3_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate4_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate4_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate4_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate4_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate4_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate5_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate5_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate5_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate5_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate5_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate6_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate6_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate6_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate6_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate6_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate7_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate7_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate7_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate7_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate7_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate8_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate8_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate8_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate8_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate8_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate9_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate9_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate9_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate9_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate9_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate10_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate10_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate10_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate10_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate10_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate11_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate11_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate11_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate11_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate11_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate12_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate12_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate12_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate12_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate12_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate13_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate13_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate13_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate13_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate13_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate14_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate14_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate14_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate14_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate14_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate15_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate15_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate15_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate15_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate15_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate16_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate16_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate16_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate16_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate16_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate17_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate17_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate17_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate17_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate17_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate18_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate18_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate18_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate18_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate18_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate19_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate19_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate19_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate19_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate19_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate20_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate20_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate20_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate20_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate20_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate21_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate21_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate21_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate21_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate21_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate22_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate22_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate22_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate22_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate22_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate23_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate23_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate23_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate23_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate23_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate24_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate24_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate24_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate24_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate24_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 flow","41","QWD","m^3/s","1/1","qwo_gate25_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 temperature","41","T","Celsius","1/1","two_gate25_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","N2","g/m^3","1/2","cwo_gate25_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 constituents","41","DO","g/m^3","2/2","cwo_gate25_seg41.opt",    0.041667
+"GATE WITHDRAWAL AT SEG41 derived constituents","41","Oxygen % Gas Saturation","","1/1","dwo_gate25_seg41.opt",    0.041667
