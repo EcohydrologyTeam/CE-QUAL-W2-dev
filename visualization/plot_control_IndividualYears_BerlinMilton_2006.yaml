@@ -50,24 +50,24 @@
     PlotType: single
 -   item: CIN_BR1
     Filename: 2006_DeerCrk_Cin.npt
-    Columns: [TDS, SO4, Cl, ISS, OP, NH4, Nox, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
+    Columns: [TDS, SO4, Cl, ISS, OP, NH4, NOx, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
     Labels: [TDS (mg/L), SO4 (mg/L), Cl (mg/L), ISS (mg/L), OP (mg/L), NH4 (mg/L), Nox (mg/L), Fe (mg/L), LDOM (mg/L), RDOM (mg/L), LPOM (mg/L), RPOM (mg/L), BG (mg/L), DIAT (mg/L), OTH (mg/L), DO (mg/L)]
-    PlotType: single
+    PlotType: multi
 -   item: CIN_BR2
     Filename: 2006_WillowCrk_Cin.npt
-    Columns: [TDS, SO4, Cl, ISS, OP, NH4, Nox, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
+    Columns: [TDS, SO4, Cl, ISS, OP, NH4, NOx, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
     Labels: [TDS (mg/L), SO4 (mg/L), Cl (mg/L), ISS (mg/L), OP (mg/L), NH4 (mg/L), Nox (mg/L), Fe (mg/L), LDOM (mg/L), RDOM (mg/L), LPOM (mg/L), RPOM (mg/L), BG (mg/L), DIAT (mg/L), OTH (mg/L), DO (mg/L)]
-    PlotType: single
+    PlotType: multi
 -   item: CIN_BR3
     Filename: 2006_IslandCrk_Cin.npt
-    Columns: [TDS, SO4, Cl, ISS, OP, NH4, Nox, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
+    Columns: [TDS, SO4, Cl, ISS, OP, NH4, NOx, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
     Labels: [TDS (mg/L), SO4 (mg/L), Cl (mg/L), ISS (mg/L), OP (mg/L), NH4 (mg/L), Nox (mg/L), Fe (mg/L), LDOM (mg/L), RDOM (mg/L), LPOM (mg/L), RPOM (mg/L), BG (mg/L), DIAT (mg/L), OTH (mg/L), DO (mg/L)]
-    PlotType: single
+    PlotType: multi
 -   item: CIN_BR4
     Filename: 2006_MillCrk_Cin.npt
-    Columns: [TDS, SO4, Cl, ISS, OP, NH4, Nox, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
+    Columns: [TDS, SO4, Cl, ISS, OP, NH4, NOx, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
     Labels: [TDS (mg/L), SO4 (mg/L), Cl (mg/L), ISS (mg/L), OP (mg/L), NH4 (mg/L), Nox (mg/L), Fe (mg/L), LDOM (mg/L), RDOM (mg/L), LPOM (mg/L), RPOM (mg/L), BG (mg/L), DIAT (mg/L), OTH (mg/L), DO (mg/L)]
-    PlotType: single
+    PlotType: multi
 -   item: QTR_TR1
     Filename: 2006_BeechCrk_Qtr.npt
     Columns: [Tributary Inflow (QTR)]
@@ -138,7 +138,7 @@
     Columns: [TDS, SO4, Cl, ISS, OP, NH4, NOx, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
     Labels: [TDS (mg/L), SO4 (mg/L), Cl (mg/L), ISS (mg/L), OP (mg/L), NH4 (mg/L), NOx (mg/L), Fe (mg/L), LDOM (mg/L), RDOM (mg/L), LPOM (mg/L), RPOM (mg/L), BG (mg/L), DIAT (mg/L), OTH (mg/L), DO (mg/L)]
     PlotType: multi
--   item: CDT_BR1
+-   item: CDT_BR2
     Filename: 2006_MahoningR_Ctr2.npt
     Columns: [TDS, SO4, Cl, ISS, OP, NH4, NOx, Fe, LDOM, RDOM, LPOM, RPOM, BG, DIAT, OTH, DO]
     Labels: [TDS (mg/L), SO4 (mg/L), Cl (mg/L), ISS (mg/L), OP (mg/L), NH4 (mg/L), NOx (mg/L), Fe (mg/L), LDOM (mg/L), RDOM (mg/L), LPOM (mg/L), RPOM (mg/L), BG (mg/L), DIAT (mg/L), OTH (mg/L), DO (mg/L)]

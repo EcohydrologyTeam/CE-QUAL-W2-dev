@@ -1,7 +1,8 @@
-import pandas as pd
-from matplotlib import pyplot as plt
-import datetime
+import numpy as np
 import seaborn as sns
+from matplotlib import pyplot as plt
+import pandas as pd
+import datetime
 import h5py
 import warnings
 from enum import Enum
@@ -311,7 +312,7 @@ def read_hdf(group: str, infile: str, variables: list[str]):
         return df
 
 
-def read_plot_control(yaml_infile: str, index_name: str = 'item'):
+def read_plot_control(yaml_infile: str, index_name='item') -> pd.DataFrame:
     '''Read CE-QUAL-W2 plot control file (YAML format)'''
     with open(yaml_infile) as yaml_file:
         yaml_contents = yaml.load(yaml_file, Loader=yaml.SafeLoader)
