@@ -207,10 +207,28 @@ def get_colors(df: pd.DataFrame, palette: str, min_colors=6):
     return colors
 
 
-def plot(df, title: str = None, legend_list: list[str] = None,
+def simple_plot(series: pd.Series, title: str = None, xlabel: str = None, ylabel: str = None, 
+    colors: list[str] = None, figsize=(15, 9), style: str = '-', palette: str = 'colorblind', **kwargs):
+    '''Plot one time series'''
+
+    fig, axes = plt.subplots(figsize=figsize)
+
+    if not colors:
+        colors = sns.color_palette(palette, 6)
+        axes.set_prop_cycle("color", colors)
+
+    series.plot(ax=axes, title=title, ylabel=ylabel, style=style)
+    axis = plt.gca()
+    axis.set_ylabel(ylabel)
+
+    fig.tight_layout()  # This resolves a lot of layout issues
+    return fig
+
+
+def plot(df: pd.DataFrame, title: str = None, legend_list: list[str] = None,
          xlabel: str = None, ylabel: str = None, colors: list[str] = None,
          figsize=(15, 9), style: str = '-', palette: str = 'colorblind', **kwargs):
-    '''Plot all columns in one figure'''
+    '''Plot entire data frame in on one axis'''
 
     fig, axes = plt.subplots(figsize=figsize)
 
@@ -228,7 +246,7 @@ def plot(df, title: str = None, legend_list: list[str] = None,
     return fig
 
 
-def multiplot(df, title: str = None, legend_list: list[str] = None, xlabel: str = None,
+def multi_plot(df, title: str = None, legend_list: list[str] = None, xlabel: str = None,
               ylabels: list[str] = None, colors: list[str] = None, figsize=(15, 21),
               style: str = '-', palette: str = 'colorblind', **kwargs):
     '''Plot each column as a separate subplot'''
@@ -352,21 +370,42 @@ def plot_all_files(plot_control_yaml: str, model_path: str, year: int, filetype=
         df = read(inpath, year, columns)
 
         # Plot the data
-        if plot_type == 'single':
-            myplot = plot(df, ylabel=ylabels[0])
-        elif plot_type == 'multi':
-            myplot = multiplot(df, ylabels=ylabels)
+        plots = []
+        if plot_type == 'combined':
+            ts_plot = plot(df, ylabel=ylabels[0], colors=k2)
+            ts_plot.plot_type = plot_type
+            plots.append(ts_plot)
+        elif plot_type == 'subplots':
+            # ts_plot = multi_plot(df, ylabels=ylabels, colors=k2)
+            ts_plot = multi_plot(df, ylabels=ylabels, palette='tab10')
+            ts_plot.plot_type = plot_type
+            plots.append(ts_plot)
+        elif plot_type == 'separate':
+            for i, col in enumerate(df.columns):
+                ts_plot = simple_plot(df[col], ylabel=ylabels[i], colors=k2)
+                ts_plot.plot_type = plot_type
+                ts_plot.variable_name = col
+                plots.append(ts_plot)
         else:
             print(f'Plot type not specified for {filename}')
 
         # Save the figure
-        if isinstance(filetype, list):
-            for ft in filetype:
-                outpath = f'{inpath}.{ft}'
-                myplot.get_figure().savefig(outpath)
-        if isinstance(filetype, str):
-            outpath = f'{inpath}.{filetype}'
-            myplot.get_figure().savefig(outpath)
+        for ts_plot in plots:
+            if isinstance(filetype, list):
+                for ft in filetype:
+                    if ts_plot.plot_type == 'separate':
+                        outpath = f'{inpath}_{ts_plot.variable_name}.{ft}'
+                        ts_plot.get_figure().savefig(outpath)
+                    else:
+                        outpath = f'{inpath}.{ft}'
+                        ts_plot.get_figure().savefig(outpath)
+            if isinstance(filetype, str):
+                    if ts_plot.plot_type == 'separate':
+                        outpath = f'{inpath}_{ts_plot.variable_name}.{filetype}'
+                        ts_plot.get_figure().savefig(outpath)
+                    else:
+                        outpath = f'{inpath}_{ts_plot.variable_name}.{filetype}'
+                        ts_plot.get_figure().savefig(outpath)
 
 
 def generate_plots_report(control_df: pd.DataFrame, model_path: str, outfile: str, title: str = None, subtitle: str = None, file_type: str = 'png', yaml: str = None, pdf_report = False):
@@ -431,6 +470,7 @@ def sql_query(database_name: str, query: str):
 
 
 def read_sql(database: str, table: str, index_is_datetime = True):
+    '''Read a table in a SQLite database'''
     connection = sqlite3.connect(database)
     df = pd.read_sql_query(f'select * from {table}', connection)
     connection.close()
