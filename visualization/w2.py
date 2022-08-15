@@ -484,7 +484,7 @@ def write_csv(df: pd.DataFrame, outfile: str, year: int, header: str = None, flo
     diff = df.index - datetime.datetime(year,1,1) + datetime.timedelta(days=1)
     jday = diff.days + diff.seconds / 3600.0 / 24.0
     df['JDAY'] = jday
-    columns = ['JDAY'] + data_columns
+    columns = ['JDAY'] + df.columns.to_list()
     df = df[columns]
 
     if not header:
