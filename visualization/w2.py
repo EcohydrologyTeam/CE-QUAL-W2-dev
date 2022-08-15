@@ -478,7 +478,7 @@ def read_sql(database: str, table: str, index_is_datetime = True):
     return df
 
 
-def write_csv(df: pd.DataFrame, outfile: str, header: str = None, float_format='%.3f'):
+def write_csv(df: pd.DataFrame, outfile: str, year: int, header: str = None, float_format='%.3f'):
     ''' Write data frame to CE-QUAL-W2 CSV format'''
     # Convert date to Julian days (day of year)
     diff = df.index - datetime.datetime(year,1,1) + datetime.timedelta(days=1)
