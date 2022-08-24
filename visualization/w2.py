@@ -10,6 +10,7 @@ import yaml
 import os
 import glob
 import sqlite3
+from typing import List
 warnings.filterwarnings("ignore")
 
 plt.style.use('seaborn')
@@ -108,7 +109,7 @@ def dataframe_to_date_format(year: int, data_frame: pd.DataFrame):
     return data_frame
 
 
-def read_npt_opt(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
+def read_npt_opt(infile: str, year: int, data_columns: List[str], skiprows: int = 3):
     '''
     Read CE-QUAL-W2 time series (fixed-width format, *.npt files)
     '''
@@ -134,7 +135,7 @@ def read_npt_opt(infile: str, year: int, data_columns: list[str], skiprows: int 
     return df
 
 
-def read_csv(infile: str, year: int, data_columns: list[str], skiprows: int = 3):
+def read_csv(infile: str, year: int, data_columns: List[str], skiprows: int = 3):
     '''Read CE-QUAL-W2 time series (CSV format)'''
 
     try:
@@ -155,7 +156,7 @@ def read_csv(infile: str, year: int, data_columns: list[str], skiprows: int = 3)
     return df
 
 
-def read(infile: str, year: int, data_columns: list[str], skiprows: int = 3, file_type: FileType = None):
+def read(infile: str, year: int, data_columns: List[str], skiprows: int = 3, file_type: FileType = None):
     '''
     Read CE-QUAL-W2 time series data (npt/opt and csv formats) and convert the Day of Year (Julian Day) to date-time format
 
@@ -185,7 +186,7 @@ def read(infile: str, year: int, data_columns: list[str], skiprows: int = 3, fil
     return df
 
 
-def read_met(infile: str, year: int, data_columns: list[str] = None, skiprows: int = 3):
+def read_met(infile: str, year: int, data_columns: List[str] = None, skiprows: int = 3):
     '''Read meteorology time series'''
     if not data_columns:
         data_columns = [
@@ -208,7 +209,7 @@ def get_colors(df: pd.DataFrame, palette: str, min_colors=6):
 
 
 def simple_plot(series: pd.Series, title: str = None, xlabel: str = None, ylabel: str = None, 
-    colors: list[str] = None, figsize=(15, 9), style: str = '-', palette: str = 'colorblind', **kwargs):
+    colors: List[str] = None, figsize=(15, 9), style: str = '-', palette: str = 'colorblind', **kwargs):
     '''Plot one time series'''
 
     fig, axes = plt.subplots(figsize=figsize)
@@ -225,8 +226,8 @@ def simple_plot(series: pd.Series, title: str = None, xlabel: str = None, ylabel
     return fig
 
 
-def plot(df: pd.DataFrame, title: str = None, legend_list: list[str] = None,
-         xlabel: str = None, ylabel: str = None, colors: list[str] = None,
+def plot(df: pd.DataFrame, title: str = None, legend_list: List[str] = None,
+         xlabel: str = None, ylabel: str = None, colors: List[str] = None,
          figsize=(15, 9), style: str = '-', palette: str = 'colorblind', **kwargs):
     '''Plot entire data frame in on one axis'''
 
@@ -246,8 +247,8 @@ def plot(df: pd.DataFrame, title: str = None, legend_list: list[str] = None,
     return fig
 
 
-def multi_plot(df, title: str = None, legend_list: list[str] = None, xlabel: str = None,
-              ylabels: list[str] = None, colors: list[str] = None, figsize=(15, 21),
+def multi_plot(df, title: str = None, legend_list: List[str] = None, xlabel: str = None,
+              ylabels: List[str] = None, colors: List[str] = None, figsize=(15, 21),
               style: str = '-', palette: str = 'colorblind', **kwargs):
     '''Plot each column as a separate subplot'''
 
@@ -301,7 +302,7 @@ def write_hdf(df: pd.DataFrame, group: str, outfile: str, overwrite=True):
             f.create_dataset(ts_path, data=df[col])
 
 
-def read_hdf(group: str, infile: str, variables: list[str]):
+def read_hdf(group: str, infile: str, variables: List[str]):
     '''
     Read CE-QUAL-W2 timeseries dataframe to HDF5
 
@@ -483,8 +484,8 @@ def write_csv(df: pd.DataFrame, outfile: str, year: int, header: str = None, flo
     # Convert date to Julian days (day of year)
     diff = df.index - datetime.datetime(year,1,1) + datetime.timedelta(days=1)
     jday = diff.days + diff.seconds / 3600.0 / 24.0
+    columns = ['JDAY'] + df.columns.to_list() # This needs to be done before assigning jday
     df['JDAY'] = jday
-    columns = ['JDAY'] + df.columns.to_list()
     df = df[columns]
 
     if not header:
