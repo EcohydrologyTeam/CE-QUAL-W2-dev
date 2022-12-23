@@ -92,7 +92,6 @@ def day_of_year_to_datetime(year: int, day_of_year_list: list):
         datetimes.append(dx)
     return datetimes
 
-
 def dataframe_to_date_format(year: int, data_frame: pd.DataFrame):
     '''
     Convert the day-of-year column in a CE-QUAL-W2 data frame
