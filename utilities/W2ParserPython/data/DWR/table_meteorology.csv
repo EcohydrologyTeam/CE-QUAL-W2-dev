@@ -1,6 +1,0 @@
-"Name","Parameter","Units","Data_Column","Filename","Output_Timestep"
-"met_wb1","air temperature","Celsius","1/5","DENI_LWS_DWQI_2011_2015_MET_withBP.csv",    0.041673
-"met_wb1","dew point temperature","Celsius","2/5","DENI_LWS_DWQI_2011_2015_MET_withBP.csv",    0.041673
-"met_wb1","wind speed","m/s","3/5","DENI_LWS_DWQI_2011_2015_MET_withBP.csv",    0.041673
-"met_wb1","wind direction","radians","4/5","DENI_LWS_DWQI_2011_2015_MET_withBP.csv",    0.041673
-"met_wb1","cloud cover","0-10","5/5","DENI_LWS_DWQI_2011_2015_MET_withBP.csv",    0.041673

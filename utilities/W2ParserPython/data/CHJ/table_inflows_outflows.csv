@@ -1,3 +1,0 @@
-"Name","Inflow/Outflow","Type","Units","Q_Column","Filename","Output_Timestep"
-"qin_br1","inflow","upstream branch inflow","m^3/s","1/1","GRAND COULEE_OUTFLOW.csv",    1.000000
-"qdt_br1","inflow","distributed tributary","m^3/s","1/1","CHIEF JOSEPH_INFLOW-LOC.npt",    1.000000

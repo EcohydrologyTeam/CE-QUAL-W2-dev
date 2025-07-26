@@ -1,7 +1,0 @@
-"Name","Parameter","Constituent_Name","Units","Data_Column","Filename","Output_Timestep"
-"tin_br1","temperature","Celsius","1/1","two_41_TDA.opt",    0.041668
-"tdt_br1","temperature","Celsius","1/1","two_41_TDA.opt",    0.041668
-"cin_br1","N2","g/m^3","1/2","cwo_41_TDA.opt",    0.041668
-"cin_br1","DO","g/m^3","2/2","cwo_41_TDA.opt",    0.041668
-"cdt_br1","N2","g/m^3","1/2","cwo_41_TDA.opt",    0.041668
-"cdt_br1","DO","g/m^3","2/2","cwo_41_TDA.opt",    0.041668
